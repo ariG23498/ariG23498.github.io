@@ -19,7 +19,7 @@ In this blog I will be writing down steps to create a `static website`. A static
 
 You cannot just have vanilla `HTML` and some text in your portfolio right?
 
-<img src="{{site.url}}/assets/post_images/#1/goodfellow.jpg" style="width:50%;height:50%" alt="Goodfellow">
+<img src="https://raw.githubusercontent.com/ariG23498/ariG23498.github.io/master/assets/post_images/%231/goodfellow.png" style="width:50%;height:50%" alt="Goodfellow">
 
 >  🙄 Just in case you don't know, this is Ian J. Goodfellow, researcher working in machine learning, currently employed at Apple Inc. as its director of machine learning in the Special Projects Group. He was previously employed as a research scientist at Google Brain. 
 
