@@ -1,0 +1,60 @@
+---
+layout: default
+---
+
+<div class="main">
+    <div class="container">
+        <div class="post-toc">
+            <div class="tocbot-list">
+            </div>
+            <div class="tocbot-list-menu">
+                <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+                <a onclick="go_top()">Back to top</a>
+                <a onclick="go_bottom()">Go to bottom</a>
+            </div>
+        </div>
+        <script>function expand_toc() { var o = document.querySelector(".tocbot-toc-expand"); tocbot.init({ tocSelector: ".tocbot-list", contentSelector: ".post-content", headingSelector: "h1, h2, h3, h4, h5", collapseDepth: 6, orderedList: !1, scrollSmooth: !0 }), o.setAttribute("onclick", "collapse_toc()"), o.innerHTML = "Collapse all" } function collapse_toc() { var o = document.querySelector(".tocbot-toc-expand"); tocbot.init({ tocSelector: ".tocbot-list", contentSelector: ".post-content", headingSelector: "h1, h2, h3, h4, h5", collapseDepth: 1, orderedList: !1, scrollSmooth: !0 }), o.setAttribute("onclick", "expand_toc()"), o.innerHTML = "Expand all" } function go_top() { window.scrollTo(0, 0) } function go_bottom() { window.scrollTo(0, document.body.scrollHeight) } document.ready(function () { tocbot.init({ tocSelector: ".tocbot-list", contentSelector: ".post-content", headingSelector: "h1, h2, h3, h4, h5", collapseDepth: 1, orderedList: !1, scrollSmooth: !0 }) })</script>
+        <article class="post-wrap">
+            <header class="post-header">
+                <h1 class="post-title">{{ page.title }}</h1>
+                <div class="post-meta">Author: <a itemprop="author" rel="author"
+                        href="{{site.url}}">{{ page.author }}</a>
+                    <span class="post-time">Date: <a href="#">{{ page.date | date: "%-d %B %Y" }}</a></span>
+                </div>
+            </header>
+            <div class="post-content">
+                {{content}}
+            </div>
+            <section class="post-tags">
+                <div>
+                    <span>Tag(s):</span>
+                    <span class="tag">
+                        {% for tag_name in page.tags %}
+                        <a href="{{site.url}}/tags#{{ tag_name }}">#{{ tag_name }}</a>
+                        {% endfor %}
+                    </span>
+                </div>
+                <div>
+                    <a href="/">Home</a>
+                </div>
+            </section>
+            <section class="post-nav">
+                {% if page.prev_title %}
+                <a class="prev" rel="prev" href="{{site.url}}{{ page.prev_link }}">{{ page.prev_title }}</a>
+                {% endif %}
+                {% if page.next_title %}
+                <a class="next" rel="next" href="{{site.url}}{{ page.next_link }}">{{ page.next_title }}</a>
+                {% endif %}
+            </section>
+            <br>
+            <br>
+        </article>
+        <!-- Disqus comments -->
+        {% if site.disqus %}
+        <div>
+            <h3>Comments</h3>
+            {% include disqus.html %}
+        </div>
+        {% endif %}
+    </div>
+</div>

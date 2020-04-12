@@ -1,0 +1,26 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="en">
+
+{%- include head.html -%}
+
+<body>
+    <div class="wrapper">
+        <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        </script>
+        {%- include header.html -%}
+        <script>
+            var mobileBtn = function() {
+                var e = document.getElementsByClassName("menu-toggle")[0],
+                    t = document.getElementById("mobile-menu");
+                e.classList.contains("active") ? (e.classList.remove("active"), t.classList.remove("active")) : (e.classList.add("active"), t.classList.add("active"))
+            }
+        </script>
+        {{ content }} {%- include footer.html -%}
+    </div>
+</body>
+
+
+</html>
