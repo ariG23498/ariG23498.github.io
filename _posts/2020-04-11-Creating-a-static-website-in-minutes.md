@@ -81,7 +81,7 @@ Our website is now being served at  `127.0.0.1:4000`. To see the website running
 
 <img src="{{site.url}}/assets/post_images/1post/jekyll_default.png" alt="default website">
 
-`খুব মিশ্তি`, that is what I had said after I saw the website running.
+`"খুব মিষ্টি"`(sweet!), that is what I had said after I saw the website running.
 
 ## Being able to read a jekyll project.
 
@@ -230,7 +230,7 @@ You get the hang of it right? Whatever layout you want, create an `html` file an
 
 <img src="https://lh3.googleusercontent.com/proxy/NnuTvmhRhhXPvZWOgnL0pOsmryCLw4JsRN4gBNLuWb3Pol1fN-z8VXkPl1vxm-pNH-woqaxSbjHkU-gdIu1ZnMGmdrF0Ok3XZnQ0COeM5SjiZWsORSMsXODuTwaOq8jxffKmg_xfpQGKGO3cB5geb63sxOBWmuWX5tTK0g" alt="too easy">
 
- #### title
+#### title
 
 This variable is used to fetch the title of the page. In the `about.markdown` file, this variable would be assigned `About`, which is indeed the title of the page. You can change this and see for yourself.
 
