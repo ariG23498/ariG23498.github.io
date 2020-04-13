@@ -19,13 +19,13 @@ In this blog I will be writing down steps to create a `static website`. A static
 
 You cannot just have vanilla `HTML` and some text in your portfolio right?
 
-<img src="{{ site.url }}/assets/goodfellow.png" style="width:50%;height:50%" alt="Goodfellow">
+<img src="{{ site.url }}/assets/post_images/1post/goodfellow.png" style="width:50%;height:50%" alt="Goodfellow">
 
->  🙄 Just in case you don't know, this is Ian J. Goodfellow, researcher working in machine learning, currently employed at Apple Inc. as its director of machine learning in the Special Projects Group. He was previously employed as a research scientist at Google Brain. 
+>  🙄 Just in case you didn't know, this is Ian J. Goodfellow, researcher working in machine learning, currently employed at Apple Inc. as its director of machine learning in the Special Projects Group. He was previously employed as a research scientist at Google Brain. 
 
-Okay, you can, but that is not the point. Most of us would like our portfolios to have aligned pictures, cool fonts and soothing colors. Here we are slowling heading towards `CSS` to style our vanilla `HTML`. 
+Okay, you can, but that is not the point. Most of us would like our portfolios to have aligned pictures, cool fonts and soothing colors. Here we are slowly heading towards `CSS` to style our `HTML`. 
 
-What if I told you that `raw text` would be enough to get yourself a cool website?
+What if I told you that `raw text` would be **enough** to get yourself a cool website?
 
 <img src="https://pbs.twimg.com/ext_tw_video_thumb/1081100253531500545/pu/img/Yq3O9IqwyF8H7dlO.jpg" style="height:50%; width:50%">
 
