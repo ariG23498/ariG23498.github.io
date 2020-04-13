@@ -1616,6 +1616,7 @@ a.toc-link {
 .highlight .kt { color: #333399; font-weight: bold } /* Keyword.Type */
 .highlight .m { color: #6600EE; font-weight: bold } /* Literal.Number */
 /* .highlight .s { background-color: #fff0f0 } Literal.String */
+.highlight .s2{ background-color: transparent;}
 .highlight .na { color: #0000CC } /* Name.Attribute */
 .highlight .nb { color: #007020 } /* Name.Builtin */
 .highlight .nc { color: #BB0066; font-weight: bold } /* Name.Class */
