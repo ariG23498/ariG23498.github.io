@@ -32,7 +32,7 @@ What if I told you that `raw text` would be **enough** to get yourself a cool we
 
 Enter `jekyll`. Jekyll is a static site generator. Its official documentation says, "You give it text written in your favourite markup language and it uses layouts to create a static website".
 
-You make an awesome website, where do you host it now? `Github-Pages` lets each individual `GitHub` user host a website for free. 🤑🤑🤑 I got you there at `free` didn't I?
+You make an awesome website, where do you host it now? `Github-Pages` lets each individual `GitHub` user host a website for free. 🤑🤑🤑 Got you at `free` didn't I?
 
 > I am assuming that you already have a GitHub account. If you don't, this [wiki page](https://www.wikihow.com/Create-an-Account-on-GitHub) can be of help.
 
@@ -227,8 +227,6 @@ Let's see what we have here 👀
 <img src="{{site.url}}/assets/post_images/1post/hello_world.png" alt="changes in layout">
 
 You get the hang of it right? Whatever layout you want, create an `html` file and keep it in the `_layouts` folder. You can use the layout by specifying the name of the `hmtl` file you just created.
-
-<img src="https://lh3.googleusercontent.com/proxy/NnuTvmhRhhXPvZWOgnL0pOsmryCLw4JsRN4gBNLuWb3Pol1fN-z8VXkPl1vxm-pNH-woqaxSbjHkU-gdIu1ZnMGmdrF0Ok3XZnQ0COeM5SjiZWsORSMsXODuTwaOq8jxffKmg_xfpQGKGO3cB5geb63sxOBWmuWX5tTK0g" alt="too easy">
 
 #### title
 
