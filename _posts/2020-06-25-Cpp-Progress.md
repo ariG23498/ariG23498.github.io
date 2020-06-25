@@ -7,7 +7,7 @@ prev_title: "Creating a static website in minutes"
 prev_link: /creating-a-static-website-in-minutes
 next_title: false
 next_link: false
-tags: jekyll website
+tags: cpp 
 permalink: /cpp-progress
 
 ---
