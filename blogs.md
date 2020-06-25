@@ -15,10 +15,10 @@ permalink: /posts
     {% endfor %}
     <h3>Medium</h3>
     <article class="archive-item">
-        <a class="archive-item-link" href="https://medium.com/xperience/hexato-13c91badc770">{{ Hexato}}</a>
+        <a class="archive-item-link" href="https://medium.com/xperience/hexato-13c91badc770">Hexato</a>
     </article>
     <article class="archive-item">
-        <a class="archive-item-link" href="https://medium.com/@aritra.born2fly/just-a-tad-bit-of-java-fc55df737fb9">{{ Tad Bit of Java }}</a>
+        <a class="archive-item-link" href="https://medium.com/@aritra.born2fly/just-a-tad-bit-of-java-fc55df737fb9">Tad Bit of Java</a>
     </article>
 </div>
 </div>
