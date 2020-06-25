@@ -128,11 +128,4 @@ int main(){
 }
 ```
 
-The most intriguing discussion in terms of datatypes is that there are something called `unsigned` datatypes in C++. Let us suppose that with the `int` datatype, the compiler specifies a memory space of 4 bytes. One byte consists of 8 bits. Each bit can hold either 0 or 1. Now, with signed int `4x8 - 1` number of bits are used as storage. The one bit is kept to determine the sign of the number, that is whether the number is negative or positive. Hence the range of numbers we can store with an unsigned int is 
-$$
--31^2 <-> 31^2
-$$
-When we are certain that we would not like to store negative numbers, we can use the `unsigned int` which stores numbers between 
-$$
-0 <-> 32^2
-$$
+The most intriguing discussion in terms of datatypes is that there are something called `unsigned` datatypes in C++. Let us suppose that with the `int` datatype, the compiler specifies a memory space of 4 bytes. One byte consists of 8 bits. Each bit can hold either 0 or 1. Now, with signed int `4x8 - 1` number of bits are used as storage. The one bit is kept to determine the sign of the number, that is whether the number is negative or positive. Hence the range of numbers we can store with an unsigned int is $ -31^2 <-> 31^2 $. When we are certain that we would not like to store negative numbers, we can use the `unsigned int` which stores numbers between $ 0 <-> 32^2 $
