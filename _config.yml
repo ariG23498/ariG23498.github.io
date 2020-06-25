@@ -30,6 +30,7 @@ disqus_shortname: 'ariG23498'
 # For hihlighting code
 highlighter: rouge
 markdown: kramdown
+mathjax: true
 kramdown:
   input: GFM
   auto_ids: true
