@@ -5,8 +5,8 @@ title:  "Creating a static website in minutes"
 author: "Aritra Roy Gosthipaty"
 prev_title: false
 prev_link: false
-next_title: false
-next_link: false
+next_title: "C++ Progress"
+next_link: /cpp-progress
 tags: jekyll website
 permalink: /creating-a-static-website-in-minutes
 
