@@ -98,6 +98,41 @@ $ ld -o hello hello.o
 
 The linker after linking the different object files, outputs an executable. `./hello` is the trigger that can be used to run the `hello` executable.
 
+[This blog](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html) is a comprehensive guide into the compilation and linking.
+
 ## Variables
 
-to be continued
+The basics that is there to `variables` is that they are data storage spaces. They memory location that data can be stored in are categorised by the virtue of their `size`. To designate the type of memory used we assign `datatypes` to each and every variable.
+
+Some primitive type variables are:
+
+* char, short, int, long, long long
+* float, double
+* bool
+
+The size assigned by different data types depend on the compiler that you use. The following code snippet when run, would provide you with the size provided by your specific compiler.
+
+```cpp
+#include <iostream>
+int main(){
+    bool bool_variable = 0;
+    std::cout << "[INFO] Size of char: " << sizeof(char) << std::endl;
+    std::cout << "[INFO] Size of short: " << sizeof(short) << std::endl;
+    std::cout << "[INFO] Size of int: " << sizeof(int) << std::endl;
+    std::cout << "[INFO] Size of long: " << sizeof(long) << std::endl;
+    std::cout << "[INFO] Size of long long: " << sizeof(long long) << std::endl;
+    std::cout << "[INFO] Size of float: " << sizeof(float) << std::endl;
+    std::cout << "[INFO] Size of double: " << sizeof(double) << std::endl;
+    std::cout << "[INFO] Size of bool: " << sizeof(bool) << std::endl;
+    std::cin.get();
+}
+```
+
+The most intriguing discussion in terms of datatypes is that there are something called `unsigned` datatypes in C++. Let us suppose that with the `int` datatype, the compiler specifies a memory space of 4 bytes. One byte consists of 8 bits. Each bit can hold either 0 or 1. Now, with signed int `4x8 - 1` number of bits are used as storage. The one bit is kept to determine the sign of the number, that is whether the number is negative or positive. Hence the range of numbers we can store with an unsigned int is 
+$$
+-31^2 <-> 31^2
+$$
+When we are certain that we would not like to store negative numbers, we can use the `unsigned int` which stores numbers between 
+$$
+0 <-> 32^2
+$$
