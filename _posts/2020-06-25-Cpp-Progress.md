@@ -46,7 +46,7 @@ $ cpp hello.cpp > hello.i
 
 The file `hello.i` has ~28k code lines. The `iostream` library is copied and pasted where the `#include` statement resides.
 
-![]()
+![many lines](https://raw.githubusercontent.com/ariG23498/ariG23498.github.io/master/assets/post_images/2post/lines_of_code.png)
 
 ### Compiling to assembly language
 
