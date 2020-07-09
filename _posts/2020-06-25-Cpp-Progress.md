@@ -5,8 +5,8 @@ title:  "C++ Progress"
 author: "Aritra Roy Gosthipaty"
 prev_title: "Creating a static website in minutes"
 prev_link: /creating-a-static-website-in-minutes
-next_title: false
-next_link: false
+next_title: "Similarity of neuron activations between similar classes"
+next_link: /similarity-of-neuron-activations-between-similar-classes
 tags: cpp 
 permalink: /cpp-progress
 
