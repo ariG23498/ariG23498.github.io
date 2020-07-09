@@ -333,6 +333,6 @@ plt.show()
 
 ![The finale](https://raw.githubusercontent.com/ariG23498/ariG23498.github.io/master/assets/post_images/3post/output_29_0.png)
 
-This the image that matters. If you look at the rows the `first image` is the image of the class under consideration, and the rest of the images in the row are arranged according to their strong correlation of their neuron activations. We can see that the `shoes` are getting placed side by side and similarly the `t-shirt` and the `pullover`. From the above given figure we can conclude that the activation pattern of similar classes are indeed similar. 
+This is the image that matters. If you look at the rows the `first image` is the image of the class under consideration, and the rest of the images in the row are arranged according to their strong correlation of their neuron activations. We can see that the `shoes` are getting placed side by side and similarly the `t-shirt` and the `pullover`. From the above given figure we can conclude that the activation pattern of similar classes are indeed similar. 
 
 I am new to deep learning and would really love the inputs from other people. I would also love constructive feedbacks on the experiment.
