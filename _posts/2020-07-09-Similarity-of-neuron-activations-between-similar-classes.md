@@ -12,7 +12,13 @@ permalink: /similarity-of-neuron-activations-between-similar-classes
 
 ---
 
-This notebook is based on a `thought experiment`. While making a classification model, does the model's neurons fire similarly for similar classes. Here I have worked on the `fashion MNIST` where I have looked at the pattern of neuron activations for a definite layer of the model and tried to co-relate the activation patter of each class with every other class there is.
+In a neural network, the weights and biases that correspond to individual neurons are the only variables. They change and try reaching an optimum stage where the whole model seems to make good predictions on the given data. With an optimum configuration of the weights and biases each neuron fires differently for a particular data point.
+
+This notebook is based on a `thought experiment`. While making a classification model, does the model's neurons fire `similarly` for `similar classes`?
+
+Here I am interested in looking at the pattern of neuron activation for individual classes. After that, I would try drawing a parallel between classes with similar activation patterns. 
+
+The data-set that has been worked upon is the `Fashion MNIST`. The classification task was to correctly classify each of the 10 classes. The neuron activation pattern has been noted and then later correlated.
 
 # Imports
 Import the important packages.
@@ -42,8 +48,10 @@ X_train.shape
 
 > (60000, 28, 28)
 
-# The DataSet
-Let us see the data and get familiar with it.
+There are `60,000` images in the data-set. There are 10 classes as mentioned below. Each of the class has `6,000` samples. The images are 28x28 pixels and have `1 channel`. `1 channel`  refers to the fact that each and every image has only the `gray channel` to express its colour. 
+
+# The Data-set
+Let us see the data and get familiar with it. The `10` classes in the `F-MNIST` data-set are as follows:
 0. 	T-shirt/top
 1. 	Trouser
 2. 	Pullover
@@ -84,8 +92,8 @@ for i in range(10):
 ![the classes](https://raw.githubusercontent.com/ariG23498/ariG23498.github.io/master/assets/post_images/3post/output_8_0.png)
 
 
-# Pre Process the Data
-The fashion MNIST dataset has only 1 channel hence needs to be pre-processed before feeding it to the `CNN` model.
+# Preprocess the Data
+This is a little step that needs to be performed before entering the next step. If we went ahead and looked into the shape of a single image from the data-set we would see that it has a dimension of `(28, 28)`. This can be thought of as a 2 dimensional matrix with 28 rows and 28 columns where each individual element is the pixel value at that position. This makes sense right? Yeah it does, but this is not it. As I had previously mentioned about the `channel`, we need to specify that information here. We need to convert each image from `(28, 28)` to `(28, 28, 1)`. This does not create a whole lot of difference, but later when we have more channels like in coloured images (3 channels namely Red, Green, Blue) we would require them to have a 3 dimensional array. To keep parity in the way we work and due to the fact that the `tf.keras` convolution API takes a 3 dimensional image, the preprocessing is important.
 
 
 ```python
@@ -98,7 +106,7 @@ print('X_test shape {}'.format(X_test.shape))
 > X_train shape (60000, 28, 28, 1)
 > X_test shape (10000, 28, 28, 1)
 
-
+Here we `one-hot` encode the class labels. 
 
 ```python
 y_train_one_hot = tf.keras.utils.to_categorical(y_train, 10)
@@ -187,7 +195,7 @@ tf.keras.utils.plot_model(
 
 ## Training
 
-At this step we train the model to fit on out `Fashion MNIST` dataset.
+At this step we train the model to fit on out `Fashion MNIST` dat-aset.
 
 
 ```python
@@ -281,21 +289,26 @@ The model does pretty well with a loss of `0.32` and an accuracy of `0.90`
 
 
 ### Slice the model
-We have seen that the model did fairly well on the `unseen test data`. Now we would look into the pattern of activation of neurons in the `penultimate layer` of the model. There was not particular reason behind my choosing this particular layer.
+We have seen that the model did fairly well on the `unseen test data`. Now we would look into the pattern of activation of neurons in the `penultimate layer` of the model. There was not particular reason behind my choosing this particular layer. Here the penultimate layer is named as `dense`. The penultimate layer has `32 neurons`. 
+
+![Sliced Model](https://raw.githubusercontent.com/ariG23498/ariG23498.github.io/master/assets/post_images/3post/Slice.jpeg)
 
 So we would pass in `1000 examples` of each individual class and keep track of the pattern of neurons firing.
 
 
 ```python
-layer_name = 'dense' 
+layer_name = 'dense' #Name of the penultimate layer.
 intermediate_layer_model = tf.keras.Model(inputs=model.input,
                                  outputs=model.get_layer(layer_name).output)
 ```
 
 ### Experiment
-1. Pass `1000 samples` of each class to the model.
-2. Note the activation of the neurons.
-3. Correlate the pattern of activations with every other class and observe the pattern.
+
+Let us talk about the experiment. I have a classification model that classifies images that are fed to it. My hypothesis is that different neurons fire (activate) for different classes. The activation of the neurons must bare a pattern along them, similar classes must have similar neurons getting activated.
+
+The model is sliced till the layer that is to be observed (here it is the penultimate "dense" layer). The penultimate layer has `32` neurons that have `ReLU` activation function. So they either activate and provide a positive value or else do not activate at all. To make things simple I have turned all positive numbers to `1`. So now we can think for a neuron either activating and producing a `1` or not activating and producing a `0`. 
+
+The methodology of the experiment is to provide `1000 samples` from each individual class to test and note the activation pattern of each of the `32 neurons`. Later, the neuron activations for each class becomes the base of correlation.
 
 
 ```python
@@ -308,6 +321,8 @@ for idx in range(10):
 ```
 
 #### Look for similar patterns of neuron activation 
+
+Similarity in activation of neurons is quantified by calculating the difference between the activations for classes. This way each of the class activation pattern is correlated with every other class activation. 
 
 
 ```python
@@ -331,8 +346,8 @@ plt.show()
 ```
 
 
-![The finale](https://raw.githubusercontent.com/ariG23498/ariG23498.github.io/master/assets/post_images/3post/output_29_0.png)
+![The finale](https://raw.githubusercontent.com/ariG23498/ariG23498.github.io/master/assets/post_images/3post/output_29_1.png)
 
-This is the image that matters. If you look at the rows the `first image` is the image of the class under consideration, and the rest of the images in the row are arranged according to their strong correlation of their neuron activations. We can see that the `shoes` are getting placed side by side and similarly the `t-shirt` and the `pullover`. From the above given figure we can conclude that the activation pattern of similar classes are indeed similar. 
+The above image is presented in a particular way. The reader is supposed to look at the rows from left to right. In each row, the first image is the `queried class`, the following images are arranged according to their similarities of neuron activation for the particular class. Here one can notice similar classes like `t-shirt, shirt and pullovers` are close to each other while `sandlas, sneakers and ankle-boots` are grouped together. The image is conclusive of the fact that similar classes indeed fire similar neurons.  
 
 I am new to deep learning and would really love the inputs from other people. I would also love constructive feedbacks on the experiment.
