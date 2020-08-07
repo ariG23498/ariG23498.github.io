@@ -13,6 +13,10 @@ permalink: /posts
         <a class="archive-item-link" href="{{ post.url }}">{{ post.title }}</a>
     </article>
     {% endfor %}
+    <h3>Weights and Biases</h3>
+    <article class="archive-item">
+        <a class="archive-item-link" href="https://app.wandb.ai/authors/class-imbalance/reports/Simple-Ways-to-Tackle-Class-Imbalance--VmlldzoxODA3NTk">Simple-Ways-to-Tackle-Class-Imbalance</a>
+    </article>
     <h3>Medium</h3>
     <article class="archive-item">
         <a class="archive-item-link" href="https://medium.com/xperience/hexato-13c91badc770">Hexato</a>
