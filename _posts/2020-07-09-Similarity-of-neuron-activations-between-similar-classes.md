@@ -5,8 +5,8 @@ title:  "Similarity of neuron activations between similar classes"
 author: "Aritra Roy Gosthipaty"
 prev_title: "Cpp Progress"
 prev_link: /cpp-progress
-next_title: false
-next_link: false
+next_title: "Back propagation in BatchNorm"
+next_link: /back-prop-in-batch-norm
 tags: keras deeplearning 
 permalink: /similarity-of-neuron-activations-between-similar-classes
 
