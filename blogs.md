@@ -8,6 +8,9 @@ permalink: /posts
 <div class="main">
 <div class="post-wrap archive">
     <h3>2020</h3>
+    <article class="archive-item">
+        <a class="archive-item-link" href="{{site.url}}/assets/BatchNorn.pdf">Back Propagation in Batch Normalization</a>
+    </article>
     {% for post in site.posts %}
     <article class="archive-item">
         <a class="archive-item-link" href="{{ post.url }}">{{ post.title }}</a>
