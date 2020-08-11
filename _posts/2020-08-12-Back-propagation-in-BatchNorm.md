@@ -1,4 +1,4 @@
----
+<!-- ---
 
 layout: post
 title:  "Back propagation in BatchNorm"
@@ -10,7 +10,7 @@ next_link: false
 tags: deeplearning batchnorm
 permalink: /back-prop-in-batch-norm
 
----
+--- -->
 
 <!doctype html><html style="overflow:auto;height:auto;width:auto;"><head><title>BatchNorm</title><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><style>@font-face {
 	font-family: Asana;
