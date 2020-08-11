@@ -6,7 +6,7 @@ author: "Aritra Roy Gosthipaty"
 prev_title: "Cpp Progress"
 prev_link: /cpp-progress
 next_title: "Back propagation in BatchNorm"
-next_link: /assets/BatchNorn.pdf
+next_link: /assets/BatchNorm.pdf
 tags: keras deeplearning 
 permalink: /similarity-of-neuron-activations-between-similar-classes
 
