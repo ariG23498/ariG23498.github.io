@@ -18,7 +18,10 @@ permalink: /posts
     {% endfor %}
     <h3>Weights and Biases</h3>
     <article class="archive-item">
-        <a class="archive-item-link" href="https://app.wandb.ai/authors/class-imbalance/reports/Simple-Ways-to-Tackle-Class-Imbalance--VmlldzoxODA3NTk">Simple-Ways-to-Tackle-Class-Imbalance</a>
+        <a class="archive-item-link" href="https://app.wandb.ai/authors/image-retrieval/reports/Towards-Representation-Learning-for-an-Image-Retrieval-Task--VmlldzoxOTY4MDI">Towards Representation Learning for an Image Retrieval Task</a>
+    </article>
+    <article class="archive-item">
+        <a class="archive-item-link" href="https://app.wandb.ai/authors/class-imbalance/reports/Simple-Ways-to-Tackle-Class-Imbalance--VmlldzoxODA3NTk">Simple Ways to Tackle Class Imbalance</a>
     </article>
     <h3>Medium</h3>
     <article class="archive-item">
