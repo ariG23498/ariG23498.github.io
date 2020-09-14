@@ -93,7 +93,7 @@ $$
 $$
 I would like to make you all understand the back-propagation of the $\mathcal{L}_{i}$ too.
 There are two conditions of the back-propagation.
-1. The part where $\displaystyle k=y_{i}$
+1. The part where $$\displaystyle k=y_{i}$$
 $$
 \frac{\partial \mathcal{L}_{i}}{\partial f_{k}} =\frac{\partial \left( -f_{y_{i}} +\log\sum _{j} e^{f_{j}}\right)}{\partial f_{k}}\\
 \Longrightarrow \frac{\partial \mathcal{L}_{i}}{\partial f_{k}} =-1+\frac{\partial \log\sum _{j} e^{f_{j}}}{\partial f_{k}}\\
@@ -102,7 +102,7 @@ $$
 \Longrightarrow \frac{\partial \mathcal{L}_{i}}{\partial f_{k}} =-1+\frac{e^{f_{y_{i}}}}{\sum _{j} e^{f_{j}}}\\
 \Longrightarrow \boxed{\frac{\partial \mathcal{L}_{i}}{\partial f_{k}} =-1+p_{y_{i}}}
 $$
-2. The part where $\displaystyle k\neq y_{i}$
+2. The part where $$\displaystyle k\neq y_{i}$$
 $$
 \frac{\partial \mathcal{L}_{i}}{\partial f_{k}} =\frac{\partial \left( -f_{y_{i}} +\log\sum _{j} e^{f_{j}}\right)}{\partial f_{k}}\\
 \Longrightarrow \frac{\partial \mathcal{L}_{i}}{\partial f_{k}} =\frac{\partial \log\sum _{j} e^{f_{j}}}{\partial f_{k}}\\
