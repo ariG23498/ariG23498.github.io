@@ -91,7 +91,7 @@ $$
 \Longrightarrow \mathcal{L}_{i} =-\log e^{f_{y_{i}}} +\log\sum _{j} e^{f_{j}}\\
 \Longrightarrow \boxed{\mathcal{L}_{i} =-f_{y_{i}} +\log\sum _{j} e^{f_{j}}}
 $$
-I would like to make you all understand the back-propagation of the $\mathcal{L}_{i}$ too.
+I would like to make you all understand the back-propagation of the $$\mathcal{L}_{i}$$ too.
 There are two conditions of the back-propagation.
 1. The part where $$\displaystyle k=y_{i}$$
 $$
