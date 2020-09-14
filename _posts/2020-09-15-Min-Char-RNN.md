@@ -16,7 +16,7 @@ permalink: /char-level-language-model
 In this blog we will run down the famous [minimal character-level language model](https://gist.github.com/karpathy/d4dee566867f8291f086) by [Andrej Karpathy](https://twitter.com/karpathy). The code has been modified to be supported by python 3.
 We will not only go through the code, but also look into the finer details of a RNN(Recurrent Neural Network) model. The explanation for the code can be found in the [video lecture of CS231n 2016](https://youtu.be/yCC09vCHzF8).
 
-In this code, the objective is to model a sequence of text, and then predict characters. We can use absolutely anything as out input, lyrics of a song, $\LaTeX$, python code and many more. In this blog I have used $Rap God by Eminem$ to model upon. The lyrics has been taken from [lyricfind](https://www.lyricfind.com/).
+In this code, the objective is to model a sequence of text, and then predict characters. We can use absolutely anything as out input, lyrics of a song, $$\LaTeX$$, python code and many more. In this blog I have used $$Rap God by Eminem$$ to model upon. The lyrics has been taken from [lyricfind](https://www.lyricfind.com/).
 # Import
 * Numpy
 
