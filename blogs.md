@@ -8,15 +8,18 @@ permalink: /posts
 <div class="main">
 <div class="post-wrap archive">
     <h3>2020</h3>
-    <article class="archive-item">
-        <a class="archive-item-link" href="{{site.url}}/assets/BatchNorm.pdf">Back Propagation in Batch Normalization</a>
-    </article>
     {% for post in site.posts %}
     <article class="archive-item">
         <a class="archive-item-link" href="{{ post.url }}">{{ post.title }}</a>
     </article>
     {% endfor %}
+    <article class="archive-item">
+        <a class="archive-item-link" href="{{site.url}}/assets/BatchNorm.pdf">Back Propagation in Batch Normalization</a>
+    </article>
     <h3>Weights and Biases</h3>
+    <article class="archive-item">
+        <a class="archive-item-link" href="https://wandb.ai/authors/nerual_style_transfer/reports/Part-1-Deep-Representations-a-way-towards-neural-style-transfer--VmlldzoyMjQzNDY">Part 1: Deep Representations, a way towards neural style transfer</a>
+    </article>
     <article class="archive-item">
         <a class="archive-item-link" href="https://app.wandb.ai/authors/image-retrieval/reports/Towards-Representation-Learning-for-an-Image-Retrieval-Task--VmlldzoxOTY4MDI">Towards Representation Learning for an Image Retrieval Task</a>
     </article>
