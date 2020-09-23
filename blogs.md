@@ -21,6 +21,9 @@ permalink: /posts
         <a class="archive-item-link" href="https://wandb.ai/authors/nerual_style_transfer/reports/Part-1-Deep-Representations-a-way-towards-neural-style-transfer--VmlldzoyMjQzNDY">Part 1: Deep Representations, a way towards neural style transfer</a>
     </article>
     <article class="archive-item">
+        <a class="archive-item-link" href="https://wandb.ai/authors/nerual_style_transfer/reports/Part-2-Deep-Representations-a-way-towards-neural-style-transfer--VmlldzoyMjYyNzk">Part 2: Deep Representations, a way towards neural style transfer</a>
+    </article>
+    <article class="archive-item">
         <a class="archive-item-link" href="https://app.wandb.ai/authors/image-retrieval/reports/Towards-Representation-Learning-for-an-Image-Retrieval-Task--VmlldzoxOTY4MDI">Towards Representation Learning for an Image Retrieval Task</a>
     </article>
     <article class="archive-item">
