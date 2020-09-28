@@ -2,6 +2,8 @@
 urls:
     - text: Posts
       url: /posts
+    - text: Research
+      url: /research
     - text: Talks
       url: /talks
     - text: Projects
