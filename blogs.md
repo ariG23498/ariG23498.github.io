@@ -17,12 +17,12 @@ permalink: /posts
         <a class="archive-item-link" href="{{site.url}}/assets/BatchNorm.pdf">Back Propagation in Batch Normalization</a>
     </article>
     <h3>Weights and Biases</h3>
-    
+
     <article class="archive-item">
-        <a class="archive-item-link" href="bitly.com/under_RNN">Under the hood of RNNs</a>
+        <a class="archive-item-link" href="https://bitly.com/under_RNN">Under the hood of RNNs</a>
     </article>
     <article class="archive-item">
-        <a class="archive-item-link" href="bitly.com/under_LSTM">Under the hood of LSTMs</a>
+        <a class="archive-item-link" href="https://bitly.com/under_LSTM">Under the hood of LSTMs</a>
     </article>
     <article class="archive-item">
         <a class="archive-item-link" href="https://wandb.ai/authors/nerual_style_transfer/reports/Part-1-Deep-Representations-a-way-towards-neural-style-transfer--VmlldzoyMjQzNDY">Part 1: Deep Representations, a way towards neural style transfer</a>
