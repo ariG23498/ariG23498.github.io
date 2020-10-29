@@ -17,7 +17,9 @@ permalink: /posts
         <a class="archive-item-link" href="{{site.url}}/assets/BatchNorm.pdf">Back Propagation in Batch Normalization</a>
     </article>
     <h3>Weights and Biases</h3>
-
+    <article class="archive-item">
+        <a class="archive-item-link" href="https://bitly.com/vlga_cnn">Survival of the Fittest CNN Model</a>
+    </article>
     <article class="archive-item">
         <a class="archive-item-link" href="https://bitly.com/under_RNN">Under the hood of RNNs</a>
     </article>
