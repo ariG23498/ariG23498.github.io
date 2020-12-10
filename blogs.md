@@ -18,6 +18,9 @@ permalink: /posts
     </article>
     <h3>Weights and Biases</h3>
     <article class="archive-item">
+        <a class="archive-item-link" href="https://wandb.ai/authors/embeddings/reports/Word2Vec---VmlldzozMzIxNjQ">Word2Vec</a>
+    </article>
+    <article class="archive-item">
         <a class="archive-item-link" href="https://bitly.com/vlga_cnn">Survival of the Fittest CNN Model</a>
     </article>
     <article class="archive-item">
