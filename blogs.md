@@ -18,6 +18,9 @@ permalink: /posts
     </article>
     <h3>Weights and Biases</h3>
     <article class="archive-item">
+        <a class="archive-item-link" href="https://wandb.ai/authors/embeddings-2/reports/GloVe--VmlldzozNDg2NTQ">GloVe</a>
+    </article>
+    <article class="archive-item">
         <a class="archive-item-link" href="https://wandb.ai/authors/embeddings/reports/Word2Vec---VmlldzozMzIxNjQ">Word2Vec</a>
     </article>
     <article class="archive-item">
