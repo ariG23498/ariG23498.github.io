@@ -18,6 +18,9 @@ permalink: /posts
     </article>
     <h3>Weights and Biases</h3>
     <article class="archive-item">
+        <a class="archive-item-link" href="http://bit.ly/seqtoseq" target="_blank" rel="noopener noreferrer">Sequence to Sequence with tf.keras</a>
+    </article>
+    <article class="archive-item">
         <a class="archive-item-link" href="http://bit.ly/keras-tuner" target="_blank" rel="noopener noreferrer">Keras Tuner with W&B</a>
     </article>
     <article class="archive-item">
