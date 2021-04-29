@@ -47,7 +47,7 @@ permalink: /posts
             <article class="archive-item">
                 <a class="archive-item-link" href="https://app.wandb.ai/authors/class-imbalance/reports/Simple-Ways-to-Tackle-Class-Imbalance--VmlldzoxODA3NTk" target="_blank" rel="noopener noreferrer">Simple Ways to Tackle Class Imbalance</a>
             </article>
-        <h3>Kaggle<h3>
+        <h3>Kaggle</h3>
             <article class="archive-item">
                 <a class="archive-item-link" href="https://www.kaggle.com/aritrag/simclr" target="_blank" rel="noopener noreferrer">SimCLR</a>
             </article>
