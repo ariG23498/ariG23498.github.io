@@ -7,15 +7,6 @@ permalink: /posts
 <!-- Write the Post page here -->
 <div class="main">
 <div class="post-wrap archive">
-    <h3>2020</h3>
-    {% for post in site.posts %}
-    <article class="archive-item">
-        <a class="archive-item-link" href="{{ post.url }}" target="_blank" rel="noopener noreferrer">{{ post.title }}</a>
-    </article>
-    {% endfor %}
-    <article class="archive-item">
-        <a class="archive-item-link" href="{{site.url}}/assets/BatchNorm.pdf" target="_blank" rel="noopener noreferrer">Back Propagation in Batch Normalization</a>
-    </article>
     <h3>Weights and Biases</h3>
     <article class="archive-item">
         <a class="archive-item-link" href="http://bit.ly/enrich_sub" target="_blank" rel="noopener noreferrer">Enriching Word Vectors with Sub-word Information</a>
@@ -55,6 +46,19 @@ permalink: /posts
     </article>
     <article class="archive-item">
         <a class="archive-item-link" href="https://app.wandb.ai/authors/class-imbalance/reports/Simple-Ways-to-Tackle-Class-Imbalance--VmlldzoxODA3NTk" target="_blank" rel="noopener noreferrer">Simple Ways to Tackle Class Imbalance</a>
+    </article>
+    <h3>Kaggle<h3>
+     <article class="archive-item">
+        <a class="archive-item-link" href="https://www.kaggle.com/aritrag/simclr" target="_blank" rel="noopener noreferrer">SimCLR on Flowers Dataset</a>
+    </article>
+    <h3>2020</h3>
+    {% for post in site.posts %}
+    <article class="archive-item">
+        <a class="archive-item-link" href="{{ post.url }}" target="_blank" rel="noopener noreferrer">{{ post.title }}</a>
+    </article>
+    {% endfor %}
+    <article class="archive-item">
+        <a class="archive-item-link" href="{{site.url}}/assets/BatchNorm.pdf" target="_blank" rel="noopener noreferrer">Back Propagation in Batch Normalization</a>
     </article>
     <h3>Medium</h3>
     <article class="archive-item">
