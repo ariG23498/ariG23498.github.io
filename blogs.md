@@ -9,6 +9,9 @@ permalink: /posts
     <div class="post-wrap archive">
         <h3>Weights and Biases</h3>
             <article class="archive-item">
+                <a class="archive-item-link" href="http://bit.ly/att-one" target="_blank" rel="noopener noreferrer">An Introduction to Attention</a>
+            </article>
+            <article class="archive-item">
                 <a class="archive-item-link" href="http://bit.ly/enrich_sub" target="_blank" rel="noopener noreferrer">Enriching Word Vectors with Sub-word Information</a>
             </article>
             <article class="archive-item">
