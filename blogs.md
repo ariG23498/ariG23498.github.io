@@ -11,6 +11,9 @@ permalink: /posts
         <article class="archive-item">
                 <a class="archive-item-link" href="https://keras.io/examples/vision/involution/" target="_blank" rel="noopener noreferrer">Involutional neural networks</a>
         </article>
+         <article class="archive-item">
+                <a class="archive-item-link" href="https://keras.io/examples/vision/nerf/" target="_blank" rel="noopener noreferrer">3D volumetric rendering with NeRF</a>
+        </article>
         <h3>Weights and Biases</h3>
             <article class="archive-item">
                 <a class="archive-item-link" href="http://bit.ly/att-one" target="_blank" rel="noopener noreferrer">An Introduction to Attention</a>
