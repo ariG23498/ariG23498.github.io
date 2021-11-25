@@ -14,8 +14,14 @@ permalink: /posts
         <article class="archive-item">
                 <a class="archive-item-link" href="https://www.pyimagesearch.com/2021/11/17/computer-graphics-and-deep-learning-with-nerf-using-tensorflow-and-keras-part-2/" target="_blank" rel="noopener noreferrer">Computer Graphics and Deep Learning with NeRF using TensorFlow and Keras: Part 2</a>
         </article>
+         <article class="archive-item">
+                <a class="archive-item-link" href="https://www.pyimagesearch.com/2021/11/24/computer-graphics-and-deep-learning-with-nerf-using-tensorflow-and-keras-part-3/" target="_blank" rel="noopener noreferrer">Computer Graphics and Deep Learning with NeRF using TensorFlow and Keras: Part 3</a>
+        </article>
         <h3>Keras</h3>
-                <article class="archive-item">
+        <article class="archive-item">
+                <a class="archive-item-link" href="https://keras.io/examples/vision/masked_image_modeling/" target="_blank" rel="noopener noreferrer">Masked image modeling with Autoencoders</a>
+        </article>
+        <article class="archive-item">
                 <a class="archive-item-link" href="https://keras.io/examples/generative/adain/" target="_blank" rel="noopener noreferrer">Neural Style Transfer with AdaINs</a>
         </article>
         <article class="archive-item">
