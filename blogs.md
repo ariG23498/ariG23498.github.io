@@ -7,6 +7,7 @@ permalink: /posts
 <!-- Write the Post page here -->
 <div class="main">
     <div class="post-wrap archive">
+        
         <h3>PyImageSearch</h3>
         <article class="archive-item">
                 <a class="archive-item-link" href="https://www.pyimagesearch.com/2021/11/10/computer-graphics-and-deep-learning-with-nerf-using-tensorflow-and-keras-part-1/" target="_blank" rel="noopener noreferrer">Computer Graphics and Deep Learning with NeRF using TensorFlow and Keras: Part 1</a>
@@ -17,6 +18,7 @@ permalink: /posts
          <article class="archive-item">
                 <a class="archive-item-link" href="https://www.pyimagesearch.com/2021/11/24/computer-graphics-and-deep-learning-with-nerf-using-tensorflow-and-keras-part-3/" target="_blank" rel="noopener noreferrer">Computer Graphics and Deep Learning with NeRF using TensorFlow and Keras: Part 3</a>
         </article>
+        
         <h3>Keras</h3>
         <article class="archive-item">
                 <a class="archive-item-link" href="https://keras.io/examples/vision/masked_image_modeling/" target="_blank" rel="noopener noreferrer">Masked image modeling with Autoencoders</a>
@@ -28,8 +30,9 @@ permalink: /posts
                 <a class="archive-item-link" href="https://keras.io/examples/vision/involution/" target="_blank" rel="noopener noreferrer">Involutional neural networks</a>
         </article>
          <article class="archive-item">
-                <a class="archive-item-link" href="https://keras.io/examples/vision/nerf/" target="_blank" rel="noopener noreferrer">3D volumetric rendering with NeRF</a>
+                <a class="archive-item-link" href="https://keras.io/examples/vision/nerf/" target="_blank" rel="noopener noreferrer">3D volumetric rendering with NeRF [^1]</a>
         </article>
+        [^1]: This tutorial won the tensorflow community spotlight award.
         <h3>Weights and Biases</h3>
             <article class="archive-item">
                 <a class="archive-item-link" href="http://bit.ly/att-one" target="_blank" rel="noopener noreferrer">An Introduction to Attention</a>
