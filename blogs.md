@@ -30,9 +30,9 @@ permalink: /posts
                 <a class="archive-item-link" href="https://keras.io/examples/vision/involution/" target="_blank" rel="noopener noreferrer">Involutional neural networks</a>
         </article>
          <article class="archive-item">
-                <a class="archive-item-link" href="https://keras.io/examples/vision/nerf/" target="_blank" rel="noopener noreferrer">3D volumetric rendering with NeRF [^1]</a>
+                <a class="archive-item-link" href="https://keras.io/examples/vision/nerf/" target="_blank" rel="noopener noreferrer">3D volumetric rendering with NeRF$$^{[1]}$$</a>
         </article>
-        [^1]: This tutorial won the tensorflow community spotlight award.
+        [1]: This tutorial won the [tensorflow community spotlight award](https://twitter.com/TensorFlow/status/1466150113814929413).
         <h3>Weights and Biases</h3>
             <article class="archive-item">
                 <a class="archive-item-link" href="http://bit.ly/att-one" target="_blank" rel="noopener noreferrer">An Introduction to Attention</a>
