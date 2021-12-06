@@ -10,6 +10,9 @@ permalink: /posts
         
         <h3>PyImageSearch</h3>
         <article class="archive-item">
+                <a class="archive-item-link" href="https://www.pyimagesearch.com/2021/12/06/fast-neural-network-training-with-distributed-training-and-google-tpus/" target="_blank" rel="noopener noreferrer">Fast Neural Network Training with Distributed Training and Google TPUs</a>
+        </article>
+        <article class="archive-item">
                 <a class="archive-item-link" href="https://www.pyimagesearch.com/2021/11/10/computer-graphics-and-deep-learning-with-nerf-using-tensorflow-and-keras-part-1/" target="_blank" rel="noopener noreferrer">Computer Graphics and Deep Learning with NeRF using TensorFlow and Keras: Part 1</a>
         </article>
         <article class="archive-item">
