@@ -24,6 +24,9 @@ permalink: /posts
         
         <h3>Keras</h3>
         <article class="archive-item">
+        <a class="archive-item-link" href="https://keras.io/examples/vision/patch_convnet/" target="_blank" rel="noopener noreferrer">Augmenting convnets with aggregated attention</a>
+        </article>
+        <article class="archive-item">
         <a class="archive-item-link" href="https://keras.io/examples/vision/vivit/" target="_blank" rel="noopener noreferrer">Video Vision Transformer</a>
         </article>
         <article class="archive-item">
