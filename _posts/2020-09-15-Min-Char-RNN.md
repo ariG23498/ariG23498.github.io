@@ -6,7 +6,7 @@ author: "Aritra Roy Gosthipaty"
 prev_title: "Similarity of neuron activations between similar classes"
 prev_link: /similarity-of-neuron-activations-between-similar-classes
 next_title: "Back propagation in BatchNorm"
-next_link: /assets/BatchNorm.pdf
+next_link: /tf-gpu
 tags: numpy deeplearning RNN
 permalink: /char-level-language-model
 
