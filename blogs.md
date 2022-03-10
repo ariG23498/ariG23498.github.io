@@ -55,7 +55,16 @@ permalink: /posts
         
         <h3>Weights and Biases</h3>
             <article class="archive-item">
-                <a class="archive-item-link" href="http://bit.ly/att-one" target="_blank" rel="noopener noreferrer">An Introduction to Attention</a>
+                <a class="archive-item-link" href="https://wandb.ai/authors/under-attention/reports/Ablations-on-NMT-with-attention---Vmlldzo1MzQwMjQ" target="_blank" rel="noopener noreferrer">Ablations on NMT with attention | Part 4</a>
+            </article>
+            <article class="archive-item">
+                <a class="archive-item-link" href="https://wandb.ai/authors/under-attention/reports/Effective-Approaches-to-Attention-based-Neural-Machine-Translation--Vmlldzo1MzQwMjA" target="_blank" rel="noopener noreferrer">Effective Approaches to Attention-based Neural Machine Translation | Part 3</a>
+            </article>
+            <article class="archive-item">
+                <a class="archive-item-link" href="https://wandb.ai/authors/under-attention/reports/Neural-Machine-Translation-by-Jointly-Learning-to-Align-and-Translate--Vmlldzo1MzQwMTY" target="_blank" rel="noopener noreferrer">Neural Machine Translation by Jointly Learning to Align and Translate | Part 2</a>
+            </article>
+            <article class="archive-item">
+                <a class="archive-item-link" href="https://wandb.ai/authors/under-attention/reports/An-Introduction-to-Attention--Vmlldzo1MzQwMTU" target="_blank" rel="noopener noreferrer">An Introduction to Attention | Part 1</a>
             </article>
             <article class="archive-item">
                 <a class="archive-item-link" href="http://bit.ly/enrich_sub" target="_blank" rel="noopener noreferrer">Enriching Word Vectors with Sub-word Information</a>
