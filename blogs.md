@@ -24,6 +24,9 @@ permalink: /posts
         
         <h3>Keras</h3>
         <article class="archive-item">
+        <a class="archive-item-link" href="https://keras.io/examples/vision/probing_vits/" target="_blank" rel="noopener noreferrer">Investigating Vision Transformer representations</a>
+        </article>
+        <article class="archive-item">
         <a class="archive-item-link" href="https://keras.io/examples/vision/shiftvit/" target="_blank" rel="noopener noreferrer">A Vision Transformer without Attention</a>
         </article>
         <article class="archive-item">
