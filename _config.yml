@@ -7,9 +7,9 @@ urls:
     - text: Talks
       url: /talks
     - text: Projects
-      url: /projects
-    - text: Resume
-      url: /assets/Aritra_Resume.pdf
+      url: https://github.com/ariG23498?tab=repositories
+    # - text: Resume
+    #   url: /assets/Aritra_Resume.pdf
 
 title: Portfolio
 email: aritra.roy.g@gmail.com
