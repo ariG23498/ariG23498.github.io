@@ -6,8 +6,8 @@ urls:
       url: /research
     - text: Talks
       url: /talks
-    - text: Projects
-      url: https://github.com/ariG23498?tab=repositories
+    # - text: Projects
+    #   url: https://github.com/ariG23498?tab=repositories
     # - text: Resume
     #   url: /assets/Aritra_Resume.pdf
 
