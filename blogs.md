@@ -54,7 +54,7 @@ permalink: /posts
                 <a class="archive-item-link" href="https://keras.io/examples/vision/nerf/" target="_blank" rel="noopener noreferrer">3D volumetric rendering with NeRF<sup>[1]</sup></a>
         </article>
         
-        1: This tutorial won the <a href="https://twitter.com/TensorFlow/status/1466150113814929413" target="_blank" rel="noopener noreferrer">TensorFlow community spotlight award.</a>
+        1: This tutorial won the <a href="https://twitter.com/TensorFlow/status/1466150113814929413" target="_blank" rel="noopener noreferrer">TensorFlow community spotlight award.</a><br>
         2: This tutorial won the <a href="https://www.kaggle.com/general/316181" target="_blank" rel="noopener noreferrer">Google Open Soruce Expert Prize.</a>
         
         <h3>Weights and Biases</h3>
