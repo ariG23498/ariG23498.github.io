@@ -30,7 +30,7 @@ permalink: /posts
         
         <h3>Keras</h3>
         <article class="archive-item">
-        <a class="archive-item-link" href="https://keras.io/examples/vision/probing_vits/" target="_blank" rel="noopener noreferrer">Investigating Vision Transformer representations</a>
+        <a class="archive-item-link" href="https://keras.io/examples/vision/probing_vits/" target="_blank" rel="noopener noreferrer">Investigating Vision Transformer representations<sup>[3]</sup></a>
         </article>
         <article class="archive-item">
         <a class="archive-item-link" href="https://keras.io/examples/vision/shiftvit/" target="_blank" rel="noopener noreferrer">A Vision Transformer without Attention</a>
@@ -62,6 +62,7 @@ permalink: /posts
         
         1: This tutorial won the <a href="https://www.kaggle.com/general/316181" target="_blank" rel="noopener noreferrer">Google Open Soruce Expert Prize.</a><br>
         2: This tutorial won the <a href="https://twitter.com/TensorFlow/status/1466150113814929413" target="_blank" rel="noopener noreferrer">TensorFlow community spotlight award.</a>
+        3: This tutorial won the <a href="https://www.kaggle.com/general/328914" target="_blank" rel="noopener noreferrer">Google Open Soruce Expert Prize.</a><br>
 
         
         <h3>Weights and Biases</h3>
