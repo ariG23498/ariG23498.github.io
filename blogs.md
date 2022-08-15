@@ -10,6 +10,9 @@ permalink: /posts
         
         <h3>PyImageSearch</h3>
         <article class="archive-item">
+                <a class="archive-item-link" href="https://pyimagesearch.com/2022/08/15/neural-machine-translation/" target="_blank" rel="noopener noreferrer">Neural Machine Translation</a>
+        </article>
+        <article class="archive-item">
                 <a class="archive-item-link" href="https://pyimagesearch.com/2022/08/08/introduction-to-tfrecords/" target="_blank" rel="noopener noreferrer">Introduction to TFRecords</a>
         </article>
         <article class="archive-item">
