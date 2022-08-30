@@ -10,6 +10,9 @@ permalink: /posts
         
         <h3>PyImageSearch</h3>
         <article class="archive-item">
+                <a class="archive-item-link" href="https://pyimagesearch.com/2022/08/29/neural-machine-translation-with-luongs-attention-using-tensorflow-and-keras/" target="_blank" rel="noopener noreferrer">Neural Machine Translation with Luong’s Attention Using TensorFlow and Keras</a>
+        </article>
+        <article class="archive-item">
                 <a class="archive-item-link" href="https://pyimagesearch.com/2022/08/22/neural-machine-translation-with-bahdanaus-attention-using-tensorflow-and-keras/" target="_blank" rel="noopener noreferrer">Neural Machine Translation with Bahdanau’s Attention Using TensorFlow and Keras</a>
         </article>
         <article class="archive-item">
