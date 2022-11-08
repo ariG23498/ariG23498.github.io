@@ -13,6 +13,12 @@ permalink: /posts
                 <a class="archive-item-link" href="https://pyimagesearch.com/2022/09/05/a-deep-dive-into-transformers-with-tensorflow-and-keras-part-1/" target="_blank" rel="noopener noreferrer">A Deep Dive into Transformers with TensorFlow and Keras: Part 1</a>
         </article>
         <article class="archive-item">
+                <a class="archive-item-link" href="https://pyimagesearch.com/2022/09/26/a-deep-dive-into-transformers-with-tensorflow-and-keras-part-2/" target="_blank" rel="noopener noreferrer">A Deep Dive into Transformers with TensorFlow and Keras: Part 2</a>
+        </article>
+        <article class="archive-item">
+                <a class="archive-item-link" href="https://pyimagesearch.com/2022/11/07/a-deep-dive-into-transformers-with-tensorflow-and-keras-part-3/" target="_blank" rel="noopener noreferrer">A Deep Dive into Transformers with TensorFlow and Keras: Part 3</a>
+        </article>
+        <article class="archive-item">
                 <a class="archive-item-link" href="https://pyimagesearch.com/2022/08/29/neural-machine-translation-with-luongs-attention-using-tensorflow-and-keras/" target="_blank" rel="noopener noreferrer">Neural Machine Translation with Luong’s Attention Using TensorFlow and Keras</a>
         </article>
         <article class="archive-item">
