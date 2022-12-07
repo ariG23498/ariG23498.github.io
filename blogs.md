@@ -161,5 +161,10 @@ permalink: /posts
             <article class="archive-item">
                 <a class="archive-item-link" href="https://medium.com/@aritra.born2fly/just-a-tad-bit-of-java-fc55df737fb9" target="_blank" rel="noopener noreferrer">Tad Bit of Java</a>
             </article>
+        
+       <h3>MISC</h3>
+        <article class="archive-item">
+                <a class="archive-item-link" href="https://www.machinelearningnuggets.com/007-aritra-roy-gosthipaty-deep-learning-associate-at-pyimagesearch/" target="_blank" rel="noopener noreferrer">Aritra Roy Gosthipaty - Deep Learning Associate at PyImageSearch</a>
+        </article>
     </div>
 </div>
