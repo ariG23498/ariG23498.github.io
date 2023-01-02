@@ -10,6 +10,9 @@ permalink: /posts
         
         <h3>PyImageSearch</h3>
         <article class="archive-item">
+                <a class="archive-item-link" href="https://pyimagesearch.com/2022/12/26/automatic-differentiation-part-2-implementation-using-micrograd/" target="_blank" rel="noopener noreferrer">Automatic Differentiation Part 2: Implementation Using Micrograd</a>
+        </article>
+        <article class="archive-item">
                 <a class="archive-item-link" href="https://pyimagesearch.com/2022/12/05/automatic-differentiation-part-1-understanding-the-math/" target="_blank" rel="noopener noreferrer">Automatic Differentiation Part 1: Understanding the Math</a>
         </article>
         <article class="archive-item">
