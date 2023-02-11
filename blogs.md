@@ -57,6 +57,9 @@ permalink: /posts
         
         <h3>Keras</h3>
         <article class="archive-item">
+        <a class="archive-item-link" href="https://keras.io/examples/vision/focal_modulation_network/" target="_blank" rel="noopener noreferrer">Focal Modulation: A replacement for Self-Attention</a>
+        </article>
+        <article class="archive-item">
         <a class="archive-item-link" href="https://keras.io/examples/vision/probing_vits/" target="_blank" rel="noopener noreferrer">Investigating Vision Transformer representations<sup>[1]</sup></a>
         </article>
         <article class="archive-item">
