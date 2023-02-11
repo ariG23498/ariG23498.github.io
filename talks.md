@@ -6,6 +6,7 @@ permalink: /talks
 
 | Presentation Title | Event | Links |
 | :--: | :--: | :--: |
+| GDSC AI Summit 23 | GDSC NMIMS | [Slides](https://docs.google.com/presentation/d/1qrLvnQGb4PxdXyOdk94eAqwho37vESFc_LKi94zb8U8/edit?usp=sharing&resourcekey=0-1u1N4FIfjc53H7q-UDZ7Ag) |
 | Introduction to NeRFs | NYTFUG | [YouTube recording](https://www.youtube.com/watch?v=U2XS7SxOy2s) | 
 | Attention is probably all you need | TFUG Chennai + TFUG hyderabad | [YouTube recording](https://www.youtube.com/watch?v=eFGCYrHQE5c) | 
 | Flutter with Dart | GDG Kolkata Flutter Workshop | [Flutter_with_Dart](https://docs.google.com/presentation/d/18zbpZpZnJVg77zhtHrDXkm84ctrgqtrbzGea1GAb6Yk/edit?usp=sharing) |
