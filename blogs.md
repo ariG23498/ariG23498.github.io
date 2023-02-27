@@ -10,6 +10,9 @@ permalink: /posts
         
         <h3>PyImageSearch</h3>
         <article class="archive-item">
+                <a class="archive-item-link" href="https://pyimagesearch.com/2023/02/27/learning-jax-in-2023-part-2-jaxs-power-tools-grad-jit-vmap-and-pmap/" target="_blank" rel="noopener noreferrer">Learning JAX in 2023: Part 2 — JAX’s Power Tools grad, jit, vmap, and pmap</a>
+        </article>
+        <article class="archive-item">
                 <a class="archive-item-link" href="https://pyimagesearch.com/2023/02/20/learning-jax-in-2023-part-1-the-ultimate-guide-to-accelerating-numerical-computation-and-machine-learning/" target="_blank" rel="noopener noreferrer">Learning JAX in 2023: Part 1 — The Ultimate Guide to Accelerating Numerical Computation and Machine Learning</a>
         </article>
         <article class="archive-item">
