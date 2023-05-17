@@ -179,6 +179,7 @@ permalink: /posts
         <h3>Medium</h3>
             <article class="archive-item">
                 <a class="archive-item-link" href="https://medium.com/google-developer-experts/ml-story-my-keras-chronicles-81fedbebeefc" target="_blank" rel="noopener noreferrer">[ML Story] My Keras Chronicles</a>
+            </article>
             <article class="archive-item">
                 <a class="archive-item-link" href="https://medium.com/xperience/hexato-13c91badc770" target="_blank" rel="noopener noreferrer">Hexato</a>
             </article>
