@@ -10,6 +10,9 @@ permalink: /posts
         
         <h3>PyImageSearch</h3>
         <article class="archive-item">
+                <a class="archive-item-link" href="https://pyimagesearch.com/2023/06/12/detr-breakdown-part-2-methodologies-and-algorithms/" target="_blank" rel="noopener noreferrer">DETR Breakdown Part 2: Methodologies and Algorithms</a>
+        </article>
+        <article class="archive-item">
                 <a class="archive-item-link" href="https://pyimagesearch.com/2023/05/22/detr-breakdown-part-1-introduction-to-detection-transformers/" target="_blank" rel="noopener noreferrer">DETR Breakdown Part 1: Introduction to DEtection TRansformers</a>
         </article>
         <article class="archive-item">
