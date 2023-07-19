@@ -5,10 +5,10 @@ title:  "TensorFlow and GPU"
 author: "Aritra Roy Gosthipaty"
 prev_title: "Character level language model RNN"
 prev_link: /char-level-language-model
-next_title: "Back propagation in BatchNorm"
+next_title: "Easy switching to backends in Keras Core with conda"
 next_link: /assets/BatchNorm.pdf
 tags: cuda cudnn
-permalink: /tf-gpu
+permalink: /keras-core-env
 
 ---
 
