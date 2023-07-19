@@ -91,7 +91,7 @@ While in the `deactivate.d/env_vars.sh` we unset them.
 ```
 #!/bin/sh
 
-unset KERAS_BACKEDN
+unset KERAS_BACKEND
 ```
 
 Now, if you activate the `kcore-jax` environment the `KERAS_BACKEND` env var is already set.
