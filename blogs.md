@@ -117,7 +117,7 @@ permalink: /posts
         1: This tutorial won the <a href="https://www.kaggle.com/general/328914" target="_blank" rel="noopener noreferrer">Google Open Soruce Expert Prize.</a><br>
         2: This tutorial won the <a href="https://www.kaggle.com/general/316181" target="_blank" rel="noopener noreferrer">Google Open Soruce Expert Prize.</a><br>
         3: This tutorial won the <a href="https://twitter.com/TensorFlow/status/1466150113814929413" target="_blank" rel="noopener noreferrer">TensorFlow community spotlight award.</a><br>
-        4: This tutorial won the TensorFlow community spotlight award.
+        4: This tutorial won the <a href="https://twitter.com/TensorFlow/status/1681802984227840000?t=IcNtWdyqpHUSG_G2TyjrXA&s=08" target="_blank" rel="noopener noreferrer">TensorFlow community spotlight award.</a><br>
         
         <h3>Weights and Biases</h3>
             <article class="archive-item">
