@@ -10,6 +10,9 @@ permalink: /posts
         
         <h3>PyImageSearch</h3>
         <article class="archive-item">
+                <a class="archive-item-link" href="https://pyimagesearch.com/2023/07/24/what-is-keras-core/" target="_blank" rel="noopener noreferrer">What Is Keras Core?</a>
+        </article>
+        <article class="archive-item">
                 <a class="archive-item-link" href="https://pyimagesearch.com/2023/06/26/detr-breakdown-part-3-architecture-and-details/" target="_blank" rel="noopener noreferrer">DETR Breakdown Part 3: Architecture and Details</a>
         </article>
         <article class="archive-item">
