@@ -10,6 +10,9 @@ permalink: /posts
         
         <h3>PyImageSearch</h3>
         <article class="archive-item">
+                <a class="archive-item-link" href="https://pyimagesearch.com/2023/08/28/augmix-with-kerascv-breakdown-part-1-introduction-to-augmix/" target="_blank" rel="noopener noreferrer">AugMix with KerasCV Breakdown (Part 1): Introduction to AugMix</a>
+        </article>
+        <article class="archive-item">
                 <a class="archive-item-link" href="https://pyimagesearch.com/2023/07/24/what-is-keras-core/" target="_blank" rel="noopener noreferrer">What Is Keras Core?</a>
         </article>
         <article class="archive-item">
