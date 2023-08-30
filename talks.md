@@ -6,6 +6,7 @@ permalink: /talks
 
 | Presentation Title | Event | Links |
 | :--: | :--: | :--: |
+| Transformers | AI Planet LLM Bootcamp | [YouTube Recording](https://www.youtube.com/watch?v=kVVNu0fZAdg) |
 | The Keras Philosophy | GDSC Nazarbayev University | [YouTube Recording](https://www.youtube.com/watch?v=Ev6Z0muhSoQ) |  
 | Keras - The Lego Framework of ML | TFUG Durg | [YouTube recording](https://www.youtube.com/watch?v=YkIW0aCExo8) |
 | GDSC AI Summit 23 | GDSC NMIMS | [Slides](https://docs.google.com/presentation/d/1qrLvnQGb4PxdXyOdk94eAqwho37vESFc_LKi94zb8U8/edit?usp=sharing&resourcekey=0-1u1N4FIfjc53H7q-UDZ7Ag) |
