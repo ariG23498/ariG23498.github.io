@@ -8,7 +8,24 @@ permalink: /posts
 <div class="main">
     <div class="post-wrap archive">
         
+        <h3>Hugging Face</h3>
+        <article class="archive-item">
+        <a class="archive-item-link" href="https://huggingface.co/blog/ariG23498/count-n-objects-p1" target="_blank" rel="noopener noreferrer">Counting 'n' objects (Part 1)</a>
+        </article>
+        <article class="archive-item">
+        <a class="archive-item-link" href="https://huggingface.co/blog/ariG23498/count-n-objects-p2" target="_blank" rel="noopener noreferrer">Counting 'n' objects (Part 2)</a>
+        </article>
+        
         <h3>PyImageSearch</h3>
+        <article class="archive-item">
+                <a class="archive-item-link" href="https://pyimagesearch.com/2023/12/04/ml-days-in-tashkent-day-1-city-tour/" target="_blank" rel="noopener noreferrer">ML Days in Tashkent — Day 1: City Tour</a>
+        </article>
+        <article class="archive-item">
+                <a class="archive-item-link" href="https://pyimagesearch.com/2023/12/11/ml-days-in-tashkent-day-2-sprints-and-sessions/" target="_blank" rel="noopener noreferrer">ML Days in Tashkent — Day 2: Sprints and Sessions</a>
+        </article>
+        <article class="archive-item">
+                <a class="archive-item-link" href="https://pyimagesearch.com/2023/12/18/ml-days-in-tashkent-day-3-demos-and-workshops/" target="_blank" rel="noopener noreferrer">ML Days in Tashkent — Day 3: Demos and Workshops</a>
+        </article>
         <article class="archive-item">
                 <a class="archive-item-link" href="https://pyimagesearch.com/2023/08/28/augmix-with-kerascv-breakdown-part-1-introduction-to-augmix/" target="_blank" rel="noopener noreferrer">AugMix with KerasCV Breakdown (Part 1): Introduction to AugMix</a>
         </article>
