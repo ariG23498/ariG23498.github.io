@@ -12,6 +12,9 @@ permalink: /posts
         <article class="archive-item">
         <a class="archive-item-link" href="https://huggingface.co/blog/ariG23498/count-n-objects" target="_blank" rel="noopener noreferrer">Counting 'n' objects</a>
         </article>
+        <article class="archive-item">
+        <a class="archive-item-link" href="https://huggingface.co/blog/ariG23498/what-is-probability" target="_blank" rel="noopener noreferrer">What is probability?</a>
+        </article>
         
         <h3>PyImageSearch</h3>
         <article class="archive-item">
