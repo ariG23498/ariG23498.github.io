@@ -15,6 +15,9 @@ permalink: /posts
         <article class="archive-item">
         <a class="archive-item-link" href="https://huggingface.co/blog/ariG23498/what-is-probability" target="_blank" rel="noopener noreferrer">What is probability?</a>
         </article>
+        <article class="archive-item">
+        <a class="archive-item-link" href="https://huggingface.co/blog/ariG23498/conditional-probability" target="_blank" rel="noopener noreferrer">Conditional Probability</a>
+        </article>
         
         <h3>PyImageSearch</h3>
         <article class="archive-item">
