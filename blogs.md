@@ -21,6 +21,9 @@ permalink: /posts
         
         <h3>PyImageSearch</h3>
         <article class="archive-item">
+                <a class="archive-item-link" href="https://pyimagesearch.com/2024/03/18/step-by-step-guide-to-open-source-implementation-of-generative-fill-part-1/" target="_blank" rel="noopener noreferrer">Step-by-Step Guide to Open-Source Implementation of Generative Fill: Part 1</a>
+        </article>
+        <article class="archive-item">
                 <a class="archive-item-link" href="https://pyimagesearch.com/2023/12/04/ml-days-in-tashkent-day-1-city-tour/" target="_blank" rel="noopener noreferrer">ML Days in Tashkent — Day 1: City Tour</a>
         </article>
         <article class="archive-item">
