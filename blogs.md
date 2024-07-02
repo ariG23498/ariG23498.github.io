@@ -8,6 +8,11 @@ permalink: /posts
 <div class="main">
     <div class="post-wrap archive">
         
+        <h3>LanceDB</h3>
+         <article class="archive-item">
+        <a class="archive-item-link" href="https://blog.lancedb.com/vector-arithmetic-with-lancedb-an-intro-to-vector-embeddings/" target="_blank" rel="noopener noreferrer">Vector Arithmetic with LanceDB: An intro to Vector Embeddings</a>
+        </article>
+        
         <h3>Hugging Face</h3>
         <article class="archive-item">
         <a class="archive-item-link" href="https://huggingface.co/blog/ariG23498/count-n-objects" target="_blank" rel="noopener noreferrer">Counting 'n' objects</a>
