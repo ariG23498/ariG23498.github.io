@@ -15,6 +15,9 @@ permalink: /posts
         
         <h3>Hugging Face</h3>
         <article class="archive-item">
+        <a class="archive-item-link" href="https://huggingface.co/blog/keras-nlp-integration" target="_blank" rel="noopener noreferrer">Announcing New Hugging Face and Keras NLP Integration</a>
+        </article>
+        <article class="archive-item">
         <a class="archive-item-link" href="https://huggingface.co/blog/ariG23498/count-n-objects" target="_blank" rel="noopener noreferrer">Counting 'n' objects</a>
         </article>
         <article class="archive-item">
