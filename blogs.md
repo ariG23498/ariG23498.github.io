@@ -7,26 +7,7 @@ permalink: /posts
 <!-- Write the Post page here -->
 <div class="main">
     <div class="post-wrap archive">
-        
-        <h3>LanceDB</h3>
-         <article class="archive-item">
-        <a class="archive-item-link" href="https://blog.lancedb.com/vector-arithmetic-with-lancedb-an-intro-to-vector-embeddings/" target="_blank" rel="noopener noreferrer">Vector Arithmetic with LanceDB: An intro to Vector Embeddings</a>
-        </article>
-        
-        <h3>Hugging Face</h3>
-        <article class="archive-item">
-        <a class="archive-item-link" href="https://huggingface.co/blog/keras-nlp-integration" target="_blank" rel="noopener noreferrer">Announcing New Hugging Face and Keras NLP Integration</a>
-        </article>
-        <article class="archive-item">
-        <a class="archive-item-link" href="https://huggingface.co/blog/ariG23498/count-n-objects" target="_blank" rel="noopener noreferrer">Counting 'n' objects</a>
-        </article>
-        <article class="archive-item">
-        <a class="archive-item-link" href="https://huggingface.co/blog/ariG23498/what-is-probability" target="_blank" rel="noopener noreferrer">What is probability?</a>
-        </article>
-        <article class="archive-item">
-        <a class="archive-item-link" href="https://huggingface.co/blog/ariG23498/conditional-probability" target="_blank" rel="noopener noreferrer">Conditional Probability</a>
-        </article>
-        
+
         <h3>PyImageSearch</h3>
         <article class="archive-item">
                 <a class="archive-item-link" href="https://pyimagesearch.com/2024/03/18/step-by-step-guide-to-open-source-implementation-of-generative-fill-part-1/" target="_blank" rel="noopener noreferrer">Step-by-Step Guide to Open-Source Implementation of Generative Fill: Part 1</a>
@@ -212,8 +193,27 @@ permalink: /posts
             <article class="archive-item">
                 <a class="archive-item-link" href="https://www.kaggle.com/aritrag/simclr" target="_blank" rel="noopener noreferrer">SimCLR</a>
             </article>
+       
+        <h3>LanceDB</h3>
+         <article class="archive-item">
+        <a class="archive-item-link" href="https://blog.lancedb.com/vector-arithmetic-with-lancedb-an-intro-to-vector-embeddings/" target="_blank" rel="noopener noreferrer">Vector Arithmetic with LanceDB: An intro to Vector Embeddings</a>
+        </article>
+        
+        <h3>Hugging Face</h3>
+        <article class="archive-item">
+        <a class="archive-item-link" href="https://huggingface.co/blog/keras-nlp-integration" target="_blank" rel="noopener noreferrer">Announcing New Hugging Face and Keras NLP Integration</a>
+        </article>
+        <article class="archive-item">
+        <a class="archive-item-link" href="https://huggingface.co/blog/ariG23498/count-n-objects" target="_blank" rel="noopener noreferrer">Counting 'n' objects</a>
+        </article>
+        <article class="archive-item">
+        <a class="archive-item-link" href="https://huggingface.co/blog/ariG23498/what-is-probability" target="_blank" rel="noopener noreferrer">What is probability?</a>
+        </article>
+        <article class="archive-item">
+        <a class="archive-item-link" href="https://huggingface.co/blog/ariG23498/conditional-probability" target="_blank" rel="noopener noreferrer">Conditional Probability</a>
+        </article>
 
-        <h3>My rough space</h3>
+        <h3>Personal Space</h3>
             {% for post in site.posts %}
             <article class="archive-item">
                 <a class="archive-item-link" href="{{ post.url }}" target="_blank" rel="noopener noreferrer">{{ post.title }}</a>
@@ -235,8 +235,9 @@ permalink: /posts
             </article>
         
        <h3>MISC</h3>
-        <article class="archive-item">
-                <a class="archive-item-link" href="https://www.machinelearningnuggets.com/007-aritra-roy-gosthipaty-deep-learning-associate-at-pyimagesearch/" target="_blank" rel="noopener noreferrer">Aritra Roy Gosthipaty - Deep Learning Associate at PyImageSearch</a>
-        </article>
+       <article class="archive-item"><a class="archive-item-link" href="https://blog.ritwikraha.dev/choosing-between-siglip-and-clip-for-language-image-pretraining" target="_blank" rel="noopener noreferrer">Choosing Between SigLIP and CLIP for Language Image Pretraining</a>
+       </article>
+       <article class="archive-item"><a class="archive-item-link" href="https://www.machinelearningnuggets.com/007-aritra-roy-gosthipaty-deep-learning-associate-at-pyimagesearch/" target="_blank" rel="noopener noreferrer">Aritra Roy Gosthipaty - Deep Learning Associate at PyImageSearch</a>
+       </article>
     </div>
 </div>
