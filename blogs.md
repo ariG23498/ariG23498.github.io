@@ -200,6 +200,10 @@ permalink: /posts
         </article>
         
         <h3>Hugging Face</h3>
+        
+        <article class="archive-item">
+        <a class="archive-item-link" href="https://huggingface.co/blog/ariG23498/workflow-peft" target="_blank" rel="noopener noreferrer">The Workflow of peft</a>
+        </article>
         <article class="archive-item">
         <a class="archive-item-link" href="https://huggingface.co/blog/keras-nlp-integration" target="_blank" rel="noopener noreferrer">Announcing New Hugging Face and Keras NLP Integration</a>
         </article>
