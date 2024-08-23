@@ -201,6 +201,9 @@ permalink: /posts
         
         <h3>Hugging Face</h3>
         <article class="archive-item">
+        <a class="archive-item-link" href="https://huggingface.co/blog/ariG23498/peft-dora" target="_blank" rel="noopener noreferrer">Building DoRA Support for Embedding Layers in PEFT</a>
+        </article>
+        <article class="archive-item">
         <a class="archive-item-link" href="https://huggingface.co/blog/ariG23498/comm-pr" target="_blank" rel="noopener noreferrer">How to communicate in a Pull Request?</a>
         </article>
         <article class="archive-item">
