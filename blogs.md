@@ -195,7 +195,10 @@ permalink: /posts
             </article>
        
         <h3>LanceDB</h3>
-         <article class="archive-item">
+        <article class="archive-item">
+        <a class="archive-item-link" href="https://blog.lancedb.com/training-a-variational-autoencoder-from-scratch-with-the-lance-file-format/" target="_blank" rel="noopener noreferrer">Training a Variational AutoEncoder from scratch with Lance file format</a>
+        </article>
+        <article class="archive-item">
         <a class="archive-item-link" href="https://blog.lancedb.com/vector-arithmetic-with-lancedb-an-intro-to-vector-embeddings/" target="_blank" rel="noopener noreferrer">Vector Arithmetic with LanceDB: An intro to Vector Embeddings</a>
         </article>
         
