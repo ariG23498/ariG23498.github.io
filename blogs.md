@@ -204,6 +204,8 @@ permalink: /posts
         
         <h3>Hugging Face</h3>
         <article class="archive-item">
+        <a class="archive-item-link" href="https://huggingface.co/blog/layerskip" target="_blank" rel="noopener noreferrer">Faster Text Generation with Self-Speculative Decoding</a>
+        <article class="archive-item">
         <a class="archive-item-link" href="https://github.com/huggingface/huggingface-llama-recipes/blob/main/assisted_decoding_70B_3B.ipynb" target="_blank" rel="noopener noreferrer">Speedup Llama 3 70B with Speculative Decoding</a>
         </article>
         <article class="archive-item">
