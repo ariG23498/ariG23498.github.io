@@ -8,6 +8,62 @@ permalink: /posts
 <div class="main">
     <div class="post-wrap archive">
 
+        <h3>Hugging Face</h3>
+        <article class="archive-item">
+        <a class="archive-item-link" href="https://huggingface.co/blog/logits-processor-zoo" target="_blank" rel="noopener noreferrer">Controlling Language Model Generation with NVIDIA's LogitsProcessorZoo</a>
+        </article>
+        <article class="archive-item">
+        <a class="archive-item-link" href="https://huggingface.co/blog/paligemma2" target="_blank" rel="noopener noreferrer">Welcome PaliGemma 2 – New vision language models by Google</a>
+        </article>
+        <article class="archive-item">
+        <a class="archive-item-link" href="https://huggingface.co/blog/layerskip" target="_blank" rel="noopener noreferrer">Faster Text Generation with Self-Speculative Decoding</a>
+        </article>
+        <article class="archive-item">
+        <a class="archive-item-link" href="https://huggingface.co/blog/ariG23498/qwen25-coder-hf" target="_blank" rel="noopener noreferrer">Hugging Face Welcomes the Qwen2.5-Coder Series</a>
+        </article>
+        <article class="archive-item">
+        <a class="archive-item-link" href="https://huggingface.co/blog/not-lain/building-hf-integrated-libraries" target="_blank" rel="noopener noreferrer">PyTorchModelHubMixin: Bridging the Gap for Custom AI Models on Hugging Face</a>
+        </article>
+        <article class="archive-item">
+        <a class="archive-item-link" href="https://huggingface.co/blog/ariG23498/cohere-aya-expanse" target="_blank" rel="noopener noreferrer">Hugging Face welcomes the Aya Expanse family of multilingual models</a>
+        </article>
+        <article class="archive-item">
+        <a class="archive-item-link" href="https://huggingface.co/blog/sd3-5" target="_blank" rel="noopener noreferrer">🧨 Diffusers welcomes Stable Diffusion 3.5 Large</a>
+        </article>
+        <article class="archive-item">
+        <a class="archive-item-link" href="https://huggingface.co/blog/llama32" target="_blank" rel="noopener noreferrer">Llama can now see and run on your device - welcome Llama 3.2</a>
+        </article>
+        <article class="archive-item">
+        <a class="archive-item-link" href="https://github.com/huggingface/huggingface-llama-recipes/blob/main/assisted_decoding_70B_3B.ipynb" target="_blank" rel="noopener noreferrer">Speedup Llama 3 70B with Speculative Decoding</a>
+        </article>
+        <article class="archive-item">
+        <a class="archive-item-link" href="https://github.com/huggingface/huggingface-llama-recipes/blob/main/assisted_decoding_8B_1B.ipynb" target="_blank" rel="noopener noreferrer">Speedup Llama 3 8B with Speculative Decoding</a>
+        </article>
+        <article class="archive-item">
+        <a class="archive-item-link" href="https://huggingface.co/blog/ariG23498/understand-vq" target="_blank" rel="noopener noreferrer">Understanding Vector Quantization in VQ-VAE</a>
+        </article>
+        <article class="archive-item">
+        <a class="archive-item-link" href="https://huggingface.co/blog/ariG23498/peft-dora" target="_blank" rel="noopener noreferrer">Building DoRA Support for Embedding Layers in PEFT</a>
+        </article>
+        <article class="archive-item">
+        <a class="archive-item-link" href="https://huggingface.co/blog/ariG23498/comm-pr" target="_blank" rel="noopener noreferrer">How to communicate in a Pull Request?</a>
+        </article>
+        <article class="archive-item">
+        <a class="archive-item-link" href="https://huggingface.co/blog/ariG23498/workflow-peft" target="_blank" rel="noopener noreferrer">The Workflow of peft</a>
+        </article>
+        <article class="archive-item">
+        <a class="archive-item-link" href="https://huggingface.co/blog/keras-nlp-integration" target="_blank" rel="noopener noreferrer">Announcing New Hugging Face and Keras NLP Integration</a>
+        </article>
+        <article class="archive-item">
+        <a class="archive-item-link" href="https://huggingface.co/blog/ariG23498/count-n-objects" target="_blank" rel="noopener noreferrer">Counting 'n' objects</a>
+        </article>
+        <article class="archive-item">
+        <a class="archive-item-link" href="https://huggingface.co/blog/ariG23498/what-is-probability" target="_blank" rel="noopener noreferrer">What is probability?</a>
+        </article>
+        <article class="archive-item">
+        <a class="archive-item-link" href="https://huggingface.co/blog/ariG23498/conditional-probability" target="_blank" rel="noopener noreferrer">Conditional Probability</a>
+        </article>
+
         <h3>PyImageSearch</h3>
         <article class="archive-item">
                 <a class="archive-item-link" href="https://pyimagesearch.com/2024/03/18/step-by-step-guide-to-open-source-implementation-of-generative-fill-part-1/" target="_blank" rel="noopener noreferrer">Step-by-Step Guide to Open-Source Implementation of Generative Fill: Part 1</a>
@@ -200,40 +256,6 @@ permalink: /posts
         </article>
         <article class="archive-item">
         <a class="archive-item-link" href="https://blog.lancedb.com/vector-arithmetic-with-lancedb-an-intro-to-vector-embeddings/" target="_blank" rel="noopener noreferrer">Vector Arithmetic with LanceDB: An intro to Vector Embeddings</a>
-        </article>
-        
-        <h3>Hugging Face</h3>
-        <article class="archive-item">
-        <a class="archive-item-link" href="https://huggingface.co/blog/layerskip" target="_blank" rel="noopener noreferrer">Faster Text Generation with Self-Speculative Decoding</a>
-        <article class="archive-item">
-        <a class="archive-item-link" href="https://github.com/huggingface/huggingface-llama-recipes/blob/main/assisted_decoding_70B_3B.ipynb" target="_blank" rel="noopener noreferrer">Speedup Llama 3 70B with Speculative Decoding</a>
-        </article>
-        <article class="archive-item">
-        <a class="archive-item-link" href="https://github.com/huggingface/huggingface-llama-recipes/blob/main/assisted_decoding_8B_1B.ipynb" target="_blank" rel="noopener noreferrer">Speedup Llama 3 8B with Speculative Decoding</a>
-        </article>
-        <article class="archive-item">
-        <a class="archive-item-link" href="https://huggingface.co/blog/ariG23498/understand-vq" target="_blank" rel="noopener noreferrer">Understanding Vector Quantization in VQ-VAE</a>
-        </article>
-        <article class="archive-item">
-        <a class="archive-item-link" href="https://huggingface.co/blog/ariG23498/peft-dora" target="_blank" rel="noopener noreferrer">Building DoRA Support for Embedding Layers in PEFT</a>
-        </article>
-        <article class="archive-item">
-        <a class="archive-item-link" href="https://huggingface.co/blog/ariG23498/comm-pr" target="_blank" rel="noopener noreferrer">How to communicate in a Pull Request?</a>
-        </article>
-        <article class="archive-item">
-        <a class="archive-item-link" href="https://huggingface.co/blog/ariG23498/workflow-peft" target="_blank" rel="noopener noreferrer">The Workflow of peft</a>
-        </article>
-        <article class="archive-item">
-        <a class="archive-item-link" href="https://huggingface.co/blog/keras-nlp-integration" target="_blank" rel="noopener noreferrer">Announcing New Hugging Face and Keras NLP Integration</a>
-        </article>
-        <article class="archive-item">
-        <a class="archive-item-link" href="https://huggingface.co/blog/ariG23498/count-n-objects" target="_blank" rel="noopener noreferrer">Counting 'n' objects</a>
-        </article>
-        <article class="archive-item">
-        <a class="archive-item-link" href="https://huggingface.co/blog/ariG23498/what-is-probability" target="_blank" rel="noopener noreferrer">What is probability?</a>
-        </article>
-        <article class="archive-item">
-        <a class="archive-item-link" href="https://huggingface.co/blog/ariG23498/conditional-probability" target="_blank" rel="noopener noreferrer">Conditional Probability</a>
         </article>
 
         <h3>Personal Space</h3>
