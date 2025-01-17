@@ -7,8 +7,10 @@ permalink: /posts
 <!-- Write the Post page here -->
 <div class="main">
     <div class="post-wrap archive">
-
         <h3>Hugging Face</h3>
+        <article class="archive-item">
+        <a class="archive-item-link" href="https://huggingface.co/blog/timm-transformers" target="_blank" rel="noopener noreferrer">Timm ❤️ Transformers: Use any timm model with transformers</a>
+        </article>
         <article class="archive-item">
         <a class="archive-item-link" href="https://huggingface.co/blog/logits-processor-zoo" target="_blank" rel="noopener noreferrer">Controlling Language Model Generation with NVIDIA's LogitsProcessorZoo</a>
         </article>
