@@ -6,6 +6,7 @@ permalink: /talks
 
 | Presentation Title | Event | Links |
 | :--: | :--: | :--: |
+| You could have designed SoTA Vision Language Models | Google x Hugging Face | [Slides](https://docs.google.com/presentation/d/1wI4CbPqcpBrWcYoF3ccPgQiI9JXZdTtW8EhGND-zRhQ/edit?usp=sharing) |
 | Transformers | AI Planet LLM Bootcamp | [YouTube Recording](https://www.youtube.com/watch?v=kVVNu0fZAdg) |
 | The Keras Philosophy | GDSC Nazarbayev University | [YouTube Recording](https://www.youtube.com/watch?v=Ev6Z0muhSoQ) |  
 | Keras - The Lego Framework of ML | TFUG Durg | [YouTube recording](https://www.youtube.com/watch?v=YkIW0aCExo8) |
