@@ -8,6 +8,9 @@ permalink: /posts
    <div class="post-wrap archive">
       <h3>Hugging Face</h3>
       <article class="archive-item">
+         <a class="archive-item-link" href="https://huggingface.co/blog/ariG23498/tgi-spaces" target="_blank" rel="noopener noreferrer">🚀 Deploying OLMo-7B with Text Generation Inference (TGI) on Hugging Face Spaces</a>
+      </article>
+      <article class="archive-item">
          <a class="archive-item-link" href="https://huggingface.co/blog/ariG23498/qwen25vl-api" target="_blank" rel="noopener noreferrer">🚀 Build a Qwen 2.5 VL API endpoint with Hugging Face spaces and Docker!</a>
       </article>
       <article class="archive-item">
