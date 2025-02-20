@@ -10,7 +10,6 @@ permalink: /posts
       <article class="archive-item">
          <a class="archive-item-link" href="https://huggingface.co/blog/paligemma2mix" target="_blank" rel="noopener noreferrer">PaliGemma 2 Mix - New Instruction Vision Language Models by Google</a>
       </article>
-      <h3>Hugging Face</h3>
       <article class="archive-item">
          <a class="archive-item-link" href="https://huggingface.co/blog/ariG23498/tgi-spaces" target="_blank" rel="noopener noreferrer">🚀 Deploying OLMo-7B with Text Generation Inference (TGI) on Hugging Face Spaces</a>
       </article>
