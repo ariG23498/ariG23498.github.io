@@ -8,6 +8,9 @@ permalink: /posts
    <div class="post-wrap archive">
       <h3>Hugging Face</h3>
       <article class="archive-item">
+         <a class="archive-item-link" href="https://huggingface.co/blog/siglip2" target="_blank" rel="noopener noreferrer">SigLIP 2: A better multilingual vision language encoder</a>
+      </article>
+      <article class="archive-item">
          <a class="archive-item-link" href="https://huggingface.co/blog/paligemma2mix" target="_blank" rel="noopener noreferrer">PaliGemma 2 Mix - New Instruction Vision Language Models by Google</a>
       </article>
       <article class="archive-item">
