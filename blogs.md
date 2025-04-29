@@ -8,6 +8,9 @@ permalink: /posts
    <div class="post-wrap archive">
       <h3>Hugging Face</h3>
        <article class="archive-item">
+         <a class="archive-item-link" href="https://huggingface.co/blog/llama-guard-4" target="_blank" rel="noopener noreferrer">Welcoming Llama Guard 4 on Hugging Face Hub</a>
+      </article>
+       <article class="archive-item">
          <a class="archive-item-link" href="https://blog.vllm.ai/2025/04/11/transformers-backend.html" target="_blank" rel="noopener noreferrer">Transformers backend integration in vLLM</a>
       </article>
       <article class="archive-item">
