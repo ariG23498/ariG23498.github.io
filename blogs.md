@@ -8,6 +8,9 @@ permalink: /posts
    <div class="post-wrap archive">
       <h3>Hugging Face</h3>
       <article class="archive-item">
+         <a class="archive-item-link" href="https://huggingface.co/blog/nanovlm" target="_blank" rel="noopener noreferrer">nanoVLM: The simplest repository to train your VLM in pure PyTorch</a>
+      </article>
+      <article class="archive-item">
          <a class="archive-item-link" href="https://huggingface.co/blog/vlms-2025" target="_blank" rel="noopener noreferrer">Vision Language Models (Better, Faster, Stronger)</a>
       </article>
        <article class="archive-item">
