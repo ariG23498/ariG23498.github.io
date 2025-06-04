@@ -8,6 +8,9 @@ permalink: /posts
    <div class="post-wrap archive">
       <h3>Hugging Face</h3>
       <article class="archive-item">
+         <a class="archive-item-link" href="https://huggingface.co/blog/kv-cache" target="_blank" rel="noopener noreferrer">KV Cache from scratch in nanoVLM</a>
+      </article>
+      <article class="archive-item">
          <a class="archive-item-link" href="https://huggingface.co/blog/smolvla" target="_blank" rel="noopener noreferrer">SmolVLA: Efficient Vision-Language-Action Model trained on Lerobot Community Data</a>
       </article>
       <article class="archive-item">
