@@ -8,6 +8,9 @@ permalink: /posts
    <div class="post-wrap archive">
       <h3>Hugging Face</h3>
       <article class="archive-item">
+         <a class="archive-item-link" href="https://huggingface.co/blog/trl-vlm-alignment" target="_blank" rel="noopener noreferrer">Vision Language Model Alignment in TRL ⚡️</a>
+      </article>
+      <article class="archive-item">
          <a class="archive-item-link" href="https://huggingface.co/blog/mmdp" target="_blank" rel="noopener noreferrer">Efficient Multimodal Data Pipeline</a>
       </article>
       <article class="archive-item">
