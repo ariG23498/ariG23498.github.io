@@ -7,6 +7,9 @@ permalink: /posts
 <div class="main">
    <div class="post-wrap archive">
       <h3>Hugging Face</h3>
+      <article class="archive-item">
+         <a class="archive-item-link" href="https://huggingface.co/blog/faster-transformers" target="_blank" rel="noopener noreferrer">Tricks from OpenAI gpt-oss YOU 🫵 can use with transformers</a>
+      </article>
        <article class="archive-item">
          <a class="archive-item-link" href="https://huggingface.co/blog/embeddinggemma" target="_blank" rel="noopener noreferrer">Welcome EmbeddingGemma, Google's new efficient embedding model</a>
       </article>
