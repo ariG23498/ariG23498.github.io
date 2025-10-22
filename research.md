@@ -9,8 +9,10 @@ permalink: /research
 <div class="post-wrap archive">
     <h3>Publications</h3>
     <article class="archive-item">
-       Devjyoti Chakraborty<sup>*</sup>, Snehangshu Bhattacharya<sup>*</sup>, Ayush Thakur<sup>*</sup>, Aritra Roy Gosthipaty<sup>*</sup>, Chira Datta; <strong>“
-Feature Extraction and Classification of Phonocardiograms using Convolutional Neural Networks”</strong><a href="https://ieeexplore.ieee.org/document/9290565">https://ieeexplore.ieee.org/document/9290565</a>. The paper is accepted at <a href="https://www.icce2020.in/">ICCE 2020</a> for the Deep Learning track.<br>
+       Luis Wiedmann, Orr Zohar, Amir Mahla, Xiaohan Wang, Rui Li, Thibaud Frere, Leandro von Werra, Aritra Roy Gosthipaty, Andrés Marafioti<strong>“FineVision: Open Data Is All You Need”</strong><a href="https://arxiv.org/abs/2510.17269">https://arxiv.org/abs/2510.17269</a>.
+    </article>
+    <article class="archive-item">
+       Devjyoti Chakraborty<sup>*</sup>, Snehangshu Bhattacharya<sup>*</sup>, Ayush Thakur<sup>*</sup>, Aritra Roy Gosthipaty<sup>*</sup>, Chira Datta; <strong>“Feature Extraction and Classification of Phonocardiograms using Convolutional Neural Networks”</strong><a href="https://ieeexplore.ieee.org/document/9290565">https://ieeexplore.ieee.org/document/9290565</a>. The paper is accepted at <a href="https://www.icce2020.in/">ICCE 2020</a> for the Deep Learning track.<br>
        <small><sup>*</sup>Equal Contribution</small>
     </article>
     <article class="archive-item">
