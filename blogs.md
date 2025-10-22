@@ -9,6 +9,7 @@ permalink: /posts
       <h3>Hugging Face</h3>
       <article class="archive-item">
          <a class="archive-item-link" href="https://huggingface.co/blog/ocr-open-models" target="_blank" rel="noopener noreferrer">Supercharge your OCR Pipelines with Open Models</a>
+      </article>
       <article class="archive-item">
          <a class="archive-item-link" href="https://huggingface.co/blog/faster-transformers" target="_blank" rel="noopener noreferrer">Tricks from OpenAI gpt-oss YOU 🫵 can use with transformers</a>
       </article>
