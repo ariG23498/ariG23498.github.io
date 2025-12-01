@@ -8,6 +8,9 @@ permalink: /posts
    <div class="post-wrap archive">
       <h3>Hugging Face</h3>
       <article class="archive-item">
+         <a class="archive-item-link" href="https://huggingface.co/spaces/nanochat-students/transformers" target="_blank" rel="noopener noreferrer">Porting nanochat to Transformers: an AI modeling history lesson</a>
+      </article>
+      <article class="archive-item">
          <a class="archive-item-link" href="https://huggingface.co/blog/ocr-open-models" target="_blank" rel="noopener noreferrer">Supercharge your OCR Pipelines with Open Models</a>
       </article>
       <article class="archive-item">
