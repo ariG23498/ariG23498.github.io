@@ -11,6 +11,9 @@ permalink: /posts
          <a class="archive-item-link" href="https://huggingface.co/spaces/nanochat-students/transformers" target="_blank" rel="noopener noreferrer">Porting nanochat to Transformers: an AI modeling history lesson</a>
       </article>
       <article class="archive-item">
+         <a class="archive-item-link" href="https://huggingface.co/blog/flux-2" target="_blank" rel="noopener noreferrer">Welcome FLUX.2 - BFL’s new open image generation model 🤗</a>
+      </article>
+      <article class="archive-item">
          <a class="archive-item-link" href="https://huggingface.co/blog/ocr-open-models" target="_blank" rel="noopener noreferrer">Supercharge your OCR Pipelines with Open Models</a>
       </article>
       <article class="archive-item">
