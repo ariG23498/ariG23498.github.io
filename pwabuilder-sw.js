@@ -86,7 +86,8 @@ self.addEventListener("fetch", (event) => {
     caches.match(request)
       .then((cachedResponse) => {
         if (cachedResponse) {
-          // Update cache in background
+          // Update cache in background (stale-while-revalidate pattern)
+          // Not awaited intentionally for better performance - serve cached immediately
           fetch(request)
             .then((response) => {
               return caches.open(RUNTIME_CACHE).then((cache) => {
