@@ -83,11 +83,15 @@ self.addEventListener("fetch", (event) => {
       .then((cachedResponse) => {
         if (cachedResponse) {
           // Update cache in background
-          fetch(request).then((response) => {
-            caches.open(RUNTIME_CACHE).then((cache) => {
-              cache.put(request, response);
+          fetch(request)
+            .then((response) => {
+              return caches.open(RUNTIME_CACHE).then((cache) => {
+                return cache.put(request, response);
+              });
+            })
+            .catch(() => {
+              // Silently fail background updates
             });
-          });
           return cachedResponse;
         }
 
@@ -96,9 +100,13 @@ self.addEventListener("fetch", (event) => {
           // Only cache successful responses
           if (response.status === 200) {
             const responseClone = response.clone();
-            caches.open(RUNTIME_CACHE).then((cache) => {
-              cache.put(request, responseClone);
-            });
+            caches.open(RUNTIME_CACHE)
+              .then((cache) => {
+                return cache.put(request, responseClone);
+              })
+              .catch(() => {
+                // Silently fail cache updates
+              });
           }
           return response;
         });
