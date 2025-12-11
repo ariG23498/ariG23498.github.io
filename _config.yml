@@ -21,12 +21,13 @@ twitter_username: ariG23498
 github_username:  ariG23498
 
 # Build settings
-theme: minima
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-remote-theme
 
-disqus: true
+disqus: false
 disqus_shortname: 'ariG23498'
 
 # For highlighting code
