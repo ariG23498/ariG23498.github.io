@@ -33,11 +33,6 @@ body:before {
   height: 100%;
   z-index: -1;
 }
-body.dark-theme {
-  background-color: $dark-background-color;
-  color: $dark-font-color;
-  transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
-}
 a {
   color: $light-global-link-color;
   text-decoration: none;
@@ -46,16 +41,6 @@ a {
 }
 a:hover {
   color: $light-global-link-hover-color;
-  text-decoration: none;
-  transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
-}
-.dark-theme a {
-  color: $dark-global-link-color;
-  text-decoration: none;
-  transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
-}
-.dark-theme a:hover {
-  color: $dark-global-link-hover-color;
   text-decoration: none;
   transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
 }
