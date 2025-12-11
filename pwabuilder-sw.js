@@ -64,9 +64,13 @@ self.addEventListener("fetch", (event) => {
         .then((response) => {
           // Cache the new version
           const responseClone = response.clone();
-          caches.open(RUNTIME_CACHE).then((cache) => {
-            cache.put(request, responseClone);
-          });
+          caches.open(RUNTIME_CACHE)
+            .then((cache) => {
+              return cache.put(request, responseClone);
+            })
+            .catch(() => {
+              // Silently fail cache updates
+            });
           return response;
         })
         .catch(() => {
