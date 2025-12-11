@@ -86,7 +86,7 @@ self.addEventListener("fetch", (event) => {
           fetch(request)
             .then((response) => {
               return caches.open(RUNTIME_CACHE).then((cache) => {
-                return cache.put(request, response);
+                return cache.put(request, response.clone());
               });
             })
             .catch(() => {
@@ -98,7 +98,7 @@ self.addEventListener("fetch", (event) => {
         // Fetch from network and cache
         return fetch(request).then((response) => {
           // Only cache successful responses
-          if (response.status === 200) {
+          if (response.ok) {
             const responseClone = response.clone();
             caches.open(RUNTIME_CACHE)
               .then((cache) => {
