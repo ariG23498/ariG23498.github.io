@@ -243,13 +243,7 @@ body:before {
     z-index: -1;
 }
 
-body.dark-theme {
-    background-color: #292a2d;
-    color: #dbdbdb;
-    transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
-}
-
-a {
+bodya {
     color: #161209;
     text-decoration: none;
     transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
@@ -258,18 +252,6 @@ a {
 
 a:hover {
     color: #2D96BD;
-    text-decoration: none;
-    transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
-}
-
-.dark-theme a {
-    color: #FFECB3;
-    text-decoration: none;
-    transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
-}
-
-.dark-theme a:hover {
-    color: #FFD700;
     text-decoration: none;
     transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
 }
@@ -360,42 +342,6 @@ input[type="checkbox"]:not(:checked)+label:before {
 input[type="radio"]:checked+label:after,
 input[type="radio"]:not(:checked)+label:after {
     transition: all 0.3s ease-in-out;
-}
-
-.switch_default[type="checkbox"] {
-    display: none;
-}
-
-.switch_default+label {
-    background-color: #e6e6e6;
-    border-radius: 7px;
-    cursor: pointer;
-    display: inline-block;
-    height: 14px;
-    position: relative;
-    box-shadow: 0.2px 0.2px 1px 0.5px rgb(180, 180, 180);
-    width: 30px;
-}
-
-.switch_default+label:after {
-    background-color: #fff;
-    border-radius: 50%;
-    content: "";
-    height: 12px;
-    left: 1px;
-    position: absolute;
-    top: .5px;
-    width: 12px;
-    box-shadow: 0.2px 0.2px 1px 0.5px rgb(180, 180, 180);
-}
-
-.switch_default:checked+label {
-    background-color: #FFA000;
-    box-shadow: none;
-}
-
-.switch_default:checked+label:after {
-    left: 17px;
 }
 
 @font-face {
@@ -537,10 +483,6 @@ input[type="radio"]:not(:checked)+label:after {
     color: #161209;
 }
 
-.dark-theme .navbar .menu .active {
-    color: #fff;
-}
-
 .navbar-header a:hover,
 .navbar .menu a:hover {
     background-color: transparent;
@@ -594,10 +536,6 @@ header label {
     color: #000;
 }
 
-.dark-theme .pagination .page-number:hover a {
-    color: #fff;
-}
-
 .pagination .page-number:before,
 .pagination .page-number:after {
     position: absolute;
@@ -607,11 +545,6 @@ header label {
     background: #000;
     transition: 0.3s;
     bottom: 0px;
-}
-
-.dark-theme .pagination .page-number:before,
-.dark-theme .pagination .page-number:after {
-    background: #fff;
 }
 
 .pagination .page-number:before .current,
@@ -634,10 +567,6 @@ header label {
 
 .pagination .page-number.current {
     color: #000;
-}
-
-.dark-theme .pagination .page-number.current {
-    color: #fff;
 }
 
 .pagination .page-number.current:before,
@@ -711,12 +640,6 @@ header label {
     border-bottom: 1px solid #BDBDBD;
 }
 
-.dark-theme .post-wrap .archive-item {
-    margin-left: 2rem;
-    margin-bottom: 1rem;
-    border-bottom: 1px solid #FFECB3;
-}
-
 .archive-item-link {
     display: inline-block;
     text-decoration: none;
@@ -728,27 +651,11 @@ header label {
     background-color: transparent;
 }
 
-.dark-theme .archive-item-link {
-    color: #ddd;
-    text-decoration: none;
-    transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease, opacity 0.2s ease;
-}
-
-.dark-theme .archive-item-link:hover {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease, opacity 0.2s ease;
-}
-
 .archive-item-date {
     float: right;
     text-align: right;
     color: #a9a9b3;
     display: none;
-}
-
-.dark-theme .archive-item-date {
-    color: #b5b5b5;
 }
 
 .post-wrap .categories-card {
@@ -801,19 +708,9 @@ header label {
     transform: scale(1.1);
 }
 
-.dark-theme .tag-cloud-tags a:active,
-.dark-theme .tag-cloud-tags a:focus,
-.dark-theme .tag-cloud-tags a:hover {
-    color: #fff;
-}
-
 .tag-cloud-tags a small {
     margin: 0 0.3em;
     color: #a9a9b3;
-}
-
-.dark-theme .tag-cloud-tags a small {
-    color: #fff;
 }
 
 .page {
@@ -843,24 +740,12 @@ header label {
     color: rgba(85, 85, 85, 0.529) !important;
 }
 
-.dark-theme .post-wrap .post-meta {
-    color: #b5b5b5 !important;
-}
-
 .post-wrap .post-meta a {
     color: #2d96bd;
 }
 
-.dark-theme .post-wrap .post-meta a {
-    color: #FFECB3;
-}
-
 .post-wrap .post-meta a:hover {
     color: #ef3982;
-}
-
-.dark-theme .post-wrap .post-meta a:hover {
-    color: #fff;
 }
 
 .post-content {
@@ -883,18 +768,10 @@ header label {
     color: #2d96bd;
 }
 
-.dark-theme .post-content h1::before {
-    color: #FFECB3;
-}
-
 .post-content h2::before {
     content: "#";
     margin-right: 5px;
     color: #2d96bd;
-}
-
-.dark-theme .post-content h2::before {
-    color: #FFECB3;
 }
 
 .post-content h3::before {
@@ -903,18 +780,10 @@ header label {
     color: #2d96bd;
 }
 
-.dark-theme .post-content h3::before {
-    color: #FFECB3;
-}
-
 .post-content h4::before {
     content: "*";
     margin-right: 5px;
     color: #2d96bd;
-}
-
-.dark-theme .post-content h4::before {
-    color: #FFECB3;
 }
 
 .post-content a {
@@ -922,17 +791,8 @@ header label {
     font-weight: bold;
 }
 
-.dark-theme .post-content a {
-    color: #FFECB3;
-}
-
 .post-content a:hover {
     color: #ef3982;
-}
-
-.dark-theme .post-content a:hover:hover {
-    color: #FFD700;
-    text-decoration: underline;
 }
 
 .post-content code,
@@ -1005,10 +865,6 @@ header label {
     background: #adc7d1;
 }
 
-.dark-theme .post-content table thead {
-    background: rgb(126, 109, 59);
-}
-
 .post-content table th,
 .post-content table td {
     padding: 5px 15px;
@@ -1060,12 +916,6 @@ header label {
 }
 
 /* Changes */
-.dark-theme .post-content blockquote {
-    color: #FFECB3;
-    background-color: #3e3e3e;
-    border-left: 2px solid gray;
-}
-
 .post-content blockquote.pullquote {
     background-color: transparent;
     max-width: 45%;
@@ -1092,16 +942,8 @@ header label {
     color: #2d96bd;
 }
 
-.dark-theme .post-copyright a {
-    color: #eee;
-}
-
 .post-copyright a:hover {
     color: #ef3982;
-}
-
-.dark-theme .post-copyright a:hover {
-    color: #fff;
 }
 
 .post-copyright .copyright-item {
@@ -1112,12 +954,7 @@ header label {
     font-weight: bold;
 }
 
-.dark-theme .post-copyright {
-    border-top: 1px solid #909196;
-    border-bottom: 1px solid #909196;
-}
-
- .post-content code,
+.post-content code,
 .post-content pre {
     line-height: 1.7em;
     padding: 7px;
@@ -1134,9 +971,7 @@ header label {
     background: #f8f5ec;
 } 
 
-.dark-theme .post-content code {
-    background:beige;
-} */
+*/
 
 .post-content figure.highlight {
     margin: 1em 0;
@@ -1288,15 +1123,8 @@ header label {
 .post-toc .toc-link::before {
     background-color: #fff;
 }
-.dark-theme .post-toc .toc-link::before {
-    background-color: #292a2d;
-}
-
 .post-toc .is-active-link::before {
     background-color: #2d96bd;
-}
-.dark-theme .post-toc .is-active-link::before {
-    background-color: #FFD700;
 }
 .post-toc .tocbot-list-menu {
     margin: 1rem 0.75rem;
@@ -1418,9 +1246,6 @@ a.toc-link {
         -moz-transition: 0.25s margin 0.25s, 0.25s transform;
         transition: 0.25s margin 0.25s, 0.25s transform;
     }
-    .dark-theme .navbar-mobile .container .navbar-header .menu-toggle span {
-        background: #dbdbdb;
-    }
     .navbar-mobile .container .navbar-header .menu-toggle span:nth-child(1) {
         margin-bottom: 8px;
     }
@@ -1466,13 +1291,6 @@ a.toc-link {
         white-space: nowrap;
         box-sizing: border-box;
         overflow-x: auto;
-    }
-    .dark-theme .navbar-mobile .container .menu {
-        background: #292a2d;
-        border-top: 2px solid #b5b5b5;
-    }
-    .dark-theme .navbar-mobile .container {
-        background: #292a2d !important;
     }
     .archive {
         width: 90%;
@@ -1549,13 +1367,6 @@ a.toc-link {
     background: rgba(211,211,211,0.2);
     font-family: Menlo, Monaco, Consolas, Courier New, monospace;
 }
-.dark-theme .post-content pre {
-    padding: 10px;
-    overflow: auto;
-    background: rgba(0,0,0,0.9);
-    font-family: Menlo, Monaco, Consolas, Courier New, monospace;
-}
-
 .post-content pre code {
     padding: 0;
 }
@@ -1580,10 +1391,6 @@ a.toc-link {
     background-color: rgba(211,211,211,0.2);;
 }
 
-.dark-theme .highlighter-rouge{
-    background-color: rgba(0,0,0,0.8);
-}
-
 /* This is the theme for vim editor Link:https://github.com/richleland/pygments-css */
 .highlight .hll { background-color: #ffffcc }
 .highlight  { background: #ffffff; }
@@ -1591,7 +1398,6 @@ a.toc-link {
 .highlight .err { color: #FF0000; background-color: #FFAAAA } /* Error */
 .highlight .k { color: #008800; font-weight: bold } /* Keyword */
 .highlight .o { color: #333333 } /* Operator */
-.dark-theme .highlight .o { color: white }
 .highlight .ch { color: #888888 } /* Comment.Hashbang */
 .highlight .cm { color: #888888 } /* Comment.Multiline */
 .highlight .cp { color: #557799 } /* Comment.Preproc */

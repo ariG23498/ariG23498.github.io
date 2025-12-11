@@ -46,9 +46,6 @@
     -moz-transition: 0.25s margin 0.25s, 0.25s transform;
     transition: 0.25s margin 0.25s, 0.25s transform;
   }
-  .dark-theme .navbar-mobile .container .navbar-header .menu-toggle span {
-    background: $dark-font-color;
-  }
   .navbar-mobile .container .navbar-header .menu-toggle span:nth-child(1) {
     margin-bottom: 8px;
   }
@@ -94,13 +91,6 @@
     white-space: nowrap;
     box-sizing: border-box;
     overflow-x: auto;
-  }
-  .dark-theme .navbar-mobile .container .menu {
-    background: $dark-background-color;
-    border-top: 2px solid $dark-font-secondary-color;
-  }
-  .dark-theme .navbar-mobile .container {
-    background: $dark-background-color !important;
   }
   .archive {
     width: 90%;
