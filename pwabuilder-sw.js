@@ -1,83 +1,107 @@
-// This is the service worker with the Cache-first network
+// Modern Service Worker with Network-first strategy for pages and Cache-first for assets
+// Updated for better performance and reliability
 
-const CACHE = "pwabuilder-precache";
-const precacheFiles = [
-  /* Add an array of files to precache for your app */
+const CACHE_NAME = "portfolio-cache-v1";
+const RUNTIME_CACHE = "portfolio-runtime-v1";
+
+// Assets to precache
+const PRECACHE_URLS = [
+  "/",
+  "/assets/css/style.css",
+  "/assets/js/script.js",
+  "/favicon.ico"
 ];
 
-self.addEventListener("install", function (event) {
-  console.log("[PWA Builder] Install Event processing");
-
-  console.log("[PWA Builder] Skip waiting on install");
-  self.skipWaiting();
-
+// Install event - precache critical assets
+self.addEventListener("install", (event) => {
+  console.log("[ServiceWorker] Install event");
+  
   event.waitUntil(
-    caches.open(CACHE).then(function (cache) {
-      console.log("[PWA Builder] Caching pages during install");
-      return cache.addAll(precacheFiles);
-    })
+    caches.open(CACHE_NAME)
+      .then((cache) => {
+        console.log("[ServiceWorker] Precaching assets");
+        return cache.addAll(PRECACHE_URLS);
+      })
+      .then(() => self.skipWaiting())
   );
 });
 
-// Allow sw to control of current page
-self.addEventListener("activate", function (event) {
-  console.log("[PWA Builder] Claiming clients for current page");
-  event.waitUntil(self.clients.claim());
-});
-
-// If any fetch fails, it will look for the request in the cache and serve it from there first
-self.addEventListener("fetch", function (event) { 
-  if (event.request.method !== "GET") return;
-
-  event.respondWith(
-    fromCache(event.request).then(
-      function (response) {
-        // The response was found in the cache so we responde with it and update the entry
-
-        // This is where we call the server to get the newest version of the
-        // file to use the next time we show view
-        event.waitUntil(
-          fetch(event.request).then(function (response) {
-            return updateCache(event.request, response);
+// Activate event - clean up old caches
+self.addEventListener("activate", (event) => {
+  console.log("[ServiceWorker] Activate event");
+  
+  event.waitUntil(
+    caches.keys()
+      .then((cacheNames) => {
+        return Promise.all(
+          cacheNames.map((cacheName) => {
+            if (cacheName !== CACHE_NAME && cacheName !== RUNTIME_CACHE) {
+              console.log("[ServiceWorker] Deleting old cache:", cacheName);
+              return caches.delete(cacheName);
+            }
           })
         );
-
-        return response;
-      },
-      function () {
-        // The response was not found in the cache so we look for it on the server
-        return fetch(event.request)
-          .then(function (response) {
-            // If request was success, add or update it in the cache
-            event.waitUntil(updateCache(event.request, response.clone()));
-
-            return response;
-          })
-          .catch(function (error) {
-            console.log("[PWA Builder] Network request failed and no cache." + error);
-          });
-      }
-    )
+      })
+      .then(() => self.clients.claim())
   );
 });
 
-function fromCache(request) {
-  // Check to see if you have it in the cache
-  // Return response
-  // If not in the cache, then return
-  return caches.open(CACHE).then(function (cache) {
-    return cache.match(request).then(function (matching) {
-      if (!matching || matching.status === 404) {
-        return Promise.reject("no-match");
-      }
+// Fetch event - network-first for pages, cache-first for assets
+self.addEventListener("fetch", (event) => {
+  const { request } = event;
+  const url = new URL(request.url);
 
-      return matching;
-    });
-  });
-}
+  // Skip non-GET requests
+  if (request.method !== "GET") return;
 
-function updateCache(request, response) {
-  return caches.open(CACHE).then(function (cache) {
-    return cache.put(request, response);
-  });
-}
+  // Skip cross-origin requests
+  if (url.origin !== location.origin) return;
+
+  // Network-first strategy for HTML pages
+  if (request.headers.get("accept")?.includes("text/html")) {
+    event.respondWith(
+      fetch(request)
+        .then((response) => {
+          // Cache the new version
+          const responseClone = response.clone();
+          caches.open(RUNTIME_CACHE).then((cache) => {
+            cache.put(request, responseClone);
+          });
+          return response;
+        })
+        .catch(() => {
+          // Fallback to cache if network fails
+          return caches.match(request);
+        })
+    );
+    return;
+  }
+
+  // Cache-first strategy for assets (CSS, JS, images)
+  event.respondWith(
+    caches.match(request)
+      .then((cachedResponse) => {
+        if (cachedResponse) {
+          // Update cache in background
+          fetch(request).then((response) => {
+            caches.open(RUNTIME_CACHE).then((cache) => {
+              cache.put(request, response);
+            });
+          });
+          return cachedResponse;
+        }
+
+        // Fetch from network and cache
+        return fetch(request).then((response) => {
+          // Only cache successful responses
+          if (response.status === 200) {
+            const responseClone = response.clone();
+            caches.open(RUNTIME_CACHE).then((cache) => {
+              cache.put(request, responseClone);
+            });
+          }
+          return response;
+        });
+      })
+  );
+});

@@ -29,7 +29,7 @@ plugins:
 disqus: true
 disqus_shortname: 'ariG23498'
 
-# For hihlighting code
+# For highlighting code
 highlighter: rouge
 markdown: kramdown
 mathjax: true
@@ -38,6 +38,9 @@ kramdown:
   auto_ids: true
   hard_wrap: false
   syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.

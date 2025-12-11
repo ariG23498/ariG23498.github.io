@@ -1,12 +1,35 @@
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- Security Headers -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    
+    <!-- PWA Manifest -->
     <link rel="manifest" href="{{site.url}}/manifest.json">
+    <meta name="theme-color" content="#2196F3">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    
+    <!-- SEO and Identity -->
     <meta name="author" content="Aritra Roy Gosthipaty">
-    <title>ariG23498</title>
+    <meta name="description" content="{{site.description}}">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    
+    <!-- Favicon -->
     <link rel="icon" href="{{site.url}}/favicon.ico">
+    
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="{{site.url}}/assets/css/style.css">
-    <script src="{{site.url}}/assets/js/script.js"></script>
-    <script src="{{site.url}}/assets/js/tocbot.min.js"></script>
+    
+    <!-- Scripts -->
+    <script src="{{site.url}}/assets/js/script.js" defer></script>
+    <script src="{{site.url}}/assets/js/tocbot.min.js" defer></script>
 </head>
