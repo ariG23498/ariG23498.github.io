@@ -129,16 +129,26 @@ Once you're happy with your post:
 To quickly create a new blog post, you can use this bash command:
 
 ```bash
-# Replace 'my-post-title' with your desired title
+# Configuration - customize these
+AUTHOR_NAME="Aritra Roy Gosthipaty"
+POST_TITLE="my-post-title"  # Replace with your desired title
+
+# Generate post file
 POST_DATE=$(date +%Y-%m-%d)
-POST_TITLE="my-post-title"
 POST_FILE="_posts/${POST_DATE}-${POST_TITLE}.md"
 
-cat > "$POST_FILE" << 'EOF'
+# Check if file already exists
+if [[ -f "$POST_FILE" ]]; then
+    echo "Error: File already exists: $POST_FILE"
+    exit 1
+fi
+
+# Create the post file
+cat > "$POST_FILE" << EOF
 ---
 layout: post
 title: "My Post Title"
-author: "Aritra Roy Gosthipaty"
+author: "$AUTHOR_NAME"
 tags: tag1 tag2 tag3
 ---
 
