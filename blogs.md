@@ -8,6 +8,9 @@ permalink: /posts
    <div class="post-wrap archive">
       <h3>Hugging Face</h3>
       <article class="archive-item">
+         <a class="archive-item-link" href="https://huggingface.co/blog/tokenizers" target="_blank" rel="noopener noreferrer">Tokenization in Transformers v5: Simpler, Clearer, and More Modular</a>
+      </article>
+      <article class="archive-item">
          <a class="archive-item-link" href="https://huggingface.co/spaces/nanochat-students/transformers" target="_blank" rel="noopener noreferrer">Porting nanochat to Transformers: an AI modeling history lesson</a>
       </article>
       <article class="archive-item">
