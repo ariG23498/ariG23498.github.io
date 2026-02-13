@@ -8,6 +8,12 @@ permalink: /posts
    <div class="post-wrap archive">
       <h3>Hugging Face</h3>
       <article class="archive-item">
+         <a class="archive-item-link" href="https://huggingface.co/blog/custom-cuda-kernels-agent-skills" target="_blank" rel="noopener noreferrer">Custom Kernels for All from Codex and Claude</a>
+      </article>
+      <article class="archive-item">
+         <a class="archive-item-link" href="https://huggingface.co/blog/ariG23498/tp-vs-dm" target="_blank" rel="noopener noreferrer">How to Use Multiple GPUs in Hugging Face Transformers: Device Map vs Tensor Parallelism</a>
+      </article>
+      <article class="archive-item">
          <a class="archive-item-link" href="https://huggingface.co/blog/tokenizers" target="_blank" rel="noopener noreferrer">Tokenization in Transformers v5: Simpler, Clearer, and More Modular</a>
       </article>
       <article class="archive-item">
