@@ -5,15 +5,38 @@ This is a Jekyll-based portfolio website for Aritra Roy Gosthipaty.
 ## Quick Start
 
 ### Prerequisites
-- Ruby and Bundler installed
-- Jekyll gem installed
+- Ruby (2.6+) installed
+- Bundler gem installed
+
+### Initial Setup
+
+1. **Install Bundler** (if not already installed):
+```bash
+gem install bundler --user-install
+```
+
+2. **Install dependencies**:
+```bash
+export PATH="$HOME/.gem/ruby/2.6.0/bin:$PATH"
+bundle install
+```
 
 ### Local Development
+
+**Option 1: Using the dev script (recommended)**
 ```bash
-bundle install
-bundle exec jekyll serve
+./dev.sh
 ```
+
+**Option 2: Manual command**
+```bash
+export PATH="$HOME/.gem/ruby/2.6.0/bin:$PATH"
+bundle exec jekyll serve --livereload --drafts
+```
+
 Visit `http://localhost:4000` to see your site.
+
+**Note:** The `--livereload` flag automatically refreshes your browser when files change. The `--drafts` flag includes draft posts in development.
 
 ## Adding New Content
 
