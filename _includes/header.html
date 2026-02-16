@@ -13,7 +13,7 @@
         <div class="container">
             <div class="navbar-header">
                 <div><a href="/">Aritra Roy Gosthipaty | ariG23498</a></div>
-                <div class="menu-toggle" onclick="mobileBtn()">&#9776; </div>
+                <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Toggle menu">&#9776;</button>
             </div>
             <div class="menu" id="mobile-menu">
                 {% for i in site.urls %}

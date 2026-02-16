@@ -8,30 +8,12 @@ layout: compress
 
 <body>
     <div class="wrapper">
-        <script>
-        MathJax = {
-          tex: {
-            inlineMath: [['$', '$'], ['\\(', '\\)']],
-            displayMath: [['$$', '$$'], ['\\[', '\\]']],
-            processEscapes: true,
-            processEnvironments: true
-          },
-          options: {
-            skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
-          }
-        };
-        </script>
-        <script type="text/javascript" id="MathJax-script" async
-        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-        </script>
         {%- include header.html -%}
-        <script>
-            var mobileBtn = function() {
-                var e = document.getElementsByClassName("menu-toggle")[0],
-                    t = document.getElementById("mobile-menu");
-                e.classList.contains("active") ? (e.classList.remove("active"), t.classList.remove("active")) : (e.classList.add("active"), t.classList.add("active"))
-            }
-        </script>
+        {% if page.mathjax %}
+        <script src="{{ '/assets/js/mathjax-config.js' | relative_url }}"></script>
+        <script type="text/javascript" id="MathJax-script" async
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        {% endif %}
         {{ content }} {%- include footer.html -%}
     </div>
 </body>

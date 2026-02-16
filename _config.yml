@@ -25,7 +25,6 @@ theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-remote-theme
 
 disqus: false
 disqus_shortname: 'ariG23498'
@@ -33,7 +32,12 @@ disqus_shortname: 'ariG23498'
 # For highlighting code
 highlighter: rouge
 markdown: kramdown
-mathjax: true
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      mathjax: true
 kramdown:
   input: GFM
   auto_ids: true
@@ -62,4 +66,3 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-
