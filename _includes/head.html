@@ -2,34 +2,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
-    <!-- Security Headers -->
-    <meta http-equiv="X-Content-Type-Options" content="nosniff">
-    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self'; img-src 'self' https: data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; upgrade-insecure-requests">
     <meta name="referrer" content="strict-origin-when-cross-origin">
-    
-    <!-- PWA Manifest -->
-    <link rel="manifest" href="{{site.url}}/manifest.json">
-    <meta name="theme-color" content="#2196F3">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    
-    <!-- SEO and Identity -->
+
     <meta name="author" content="Aritra Roy Gosthipaty">
-    <meta name="description" content="{{site.description}}">
+    <meta name="description" content="{{site.description | escape}}">
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
-    
-    <!-- Favicon -->
-    <link rel="icon" href="{{site.url}}/favicon.ico">
-    
-    <!-- Preconnect for Performance -->
-    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-    
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="{{site.url}}/assets/css/style.css">
-    
-    <!-- Scripts -->
-    <script src="{{site.url}}/assets/js/script.js" defer></script>
-    <script src="{{site.url}}/assets/js/tocbot.min.js" defer></script>
+
+    <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    {% if page.layout == 'post' %}
+    <script src="{{ '/assets/js/tocbot.min.js' | relative_url }}" defer></script>
+    {% endif %}
+    <script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
 </head>

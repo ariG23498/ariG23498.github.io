@@ -33,10 +33,10 @@ Please allow reasonable time for the issue to be addressed before public disclos
 ## Security Best Practices
 
 This portfolio implements:
-- Content Security Policy headers
-- HTTPS enforcement via GitHub Pages
-- Modern service worker with proper caching strategies
+- Content Security Policy via `<meta http-equiv="Content-Security-Policy">`
+- Strict referrer policy
+- HTTPS hosting on GitHub Pages
 - No server-side code execution
-- Regular dependency updates via `github-pages` gem
+- Dependency updates via Bundler / `github-pages`
 
 Thank you for helping keep this portfolio secure!

@@ -8,12 +8,11 @@ layout: default
             <div class="tocbot-list">
             </div>
             <div class="tocbot-list-menu">
-                <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
-                <a onclick="go_top()">Back to top</a>
-                <a onclick="go_bottom()">Go to bottom</a>
+                <a class="tocbot-toc-expand" href="#" data-toc-expand>Expand all</a>
+                <a href="#" data-scroll-top>Back to top</a>
+                <a href="#" data-scroll-bottom>Go to bottom</a>
             </div>
         </div>
-        <script>function expand_toc() { var o = document.querySelector(".tocbot-toc-expand"); tocbot.init({ tocSelector: ".tocbot-list", contentSelector: ".post-content", headingSelector: "h1, h2, h3, h4, h5", collapseDepth: 6, orderedList: !1, scrollSmooth: !0 }), o.setAttribute("onclick", "collapse_toc()"), o.innerHTML = "Collapse all" } function collapse_toc() { var o = document.querySelector(".tocbot-toc-expand"); tocbot.init({ tocSelector: ".tocbot-list", contentSelector: ".post-content", headingSelector: "h1, h2, h3, h4, h5", collapseDepth: 1, orderedList: !1, scrollSmooth: !0 }), o.setAttribute("onclick", "expand_toc()"), o.innerHTML = "Expand all" } function go_top() { window.scrollTo(0, 0) } function go_bottom() { window.scrollTo(0, document.body.scrollHeight) } document.ready(function () { tocbot.init({ tocSelector: ".tocbot-list", contentSelector: ".post-content", headingSelector: "h1, h2, h3, h4, h5", collapseDepth: 1, orderedList: !1, scrollSmooth: !0 }) })</script>
         <article class="post-wrap">
             <header class="post-header">
                 <h1 class="post-title">{{ page.title }}</h1>
