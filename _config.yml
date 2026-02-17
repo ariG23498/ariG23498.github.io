@@ -26,8 +26,6 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-disqus: false
-disqus_shortname: 'ariG23498'
 
 # For highlighting code
 highlighter: rouge
@@ -66,3 +64,8 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - CLAUDE.md
+  - README.md
+  - LICENSE
+  - dev.sh
+  - SECURITY.md
