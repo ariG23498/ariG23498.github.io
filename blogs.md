@@ -8,6 +8,9 @@ permalink: /posts
    <div class="post-wrap archive">
       <h3>Hugging Face</h3>
       <article class="archive-item">
+         <a class="archive-item-link" href="https://huggingface.co/blog/moe-transformers" target="_blank" rel="noopener noreferrer">Mixture of Experts (MoEs) in Transformers</a>
+      </article>
+      <article class="archive-item">
          <a class="archive-item-link" href="https://huggingface.co/blog/custom-cuda-kernels-agent-skills" target="_blank" rel="noopener noreferrer">Custom Kernels for All from Codex and Claude</a>
       </article>
       <article class="archive-item">
