@@ -6,6 +6,7 @@ permalink: /talks
 
 | Presentation Title | Event | Links |
 | :--: | :--: | :--: |
+| Understanding RoPE | Hugging Face | [YouTube](https://youtu.be/jlGf2qieSk0)|
 | HF Podcast | Podcast | [YouTube](https://youtu.be/O3Ul6H20pLI) |
 | Beyond the Brrr: Building a _Unified Ecosystem_ for Optimized Kernels | PyTorch Day India 2026 | [YouTube](https://youtu.be/q0GfzJmuaUM?si=piY_ZvO9Fqq3-hZ8) |
 | Routing Algorithm inside MoEs | Hugging Face | [YouTube](https://youtu.be/CDnkFbW-uEQ) |
