@@ -8,6 +8,9 @@ permalink: /posts
    <div class="post-wrap archive">
       <h3>Hugging Face</h3>
       <article class="archive-item">
+         <a class="archive-item-link" href="https://huggingface.co/blog/ariG23498/pallas-for-beginners" target="_blank" rel="noopener noreferrer">Pallas for people who know JAX but not Kernels yet</a>
+      </article>
+      <article class="archive-item">
          <a class="archive-item-link" href="https://huggingface.co/blog/moe-transformers" target="_blank" rel="noopener noreferrer">Mixture of Experts (MoEs) in Transformers</a>
       </article>
       <article class="archive-item">
