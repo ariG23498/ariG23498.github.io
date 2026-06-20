@@ -6,6 +6,7 @@ permalink: /talks
 
 | Presentation Title | Event | Links |
 | :--: | :--: | :--: |
+| Tokenization in Transformers v5 | PyCon Singapore 2026 | [Google Slides](https://docs.google.com/presentation/d/1kbfseQ9GHad8a89LpNJ7y__4jvSUSQK-4IJAEc-V4NU/edit?usp=sharing)|
 | Understanding RoPE | Hugging Face | [YouTube](https://youtu.be/jlGf2qieSk0)|
 | HF Podcast | Podcast | [YouTube](https://youtu.be/O3Ul6H20pLI) |
 | Beyond the Brrr: Building a _Unified Ecosystem_ for Optimized Kernels | PyTorch Day India 2026 | [YouTube](https://youtu.be/q0GfzJmuaUM?si=piY_ZvO9Fqq3-hZ8) |
