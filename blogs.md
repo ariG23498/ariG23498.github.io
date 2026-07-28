@@ -9,8 +9,10 @@ permalink: /posts
       <h3>Hugging Face</h3>
       <article class="archive-item">
          <a class="archive-item-link" href="https://huggingface.co/blog/thinkingmachines-inkling" target="_blank" rel="noopener noreferrer">Welcome Inkling by Thinking Machines</a>
+      </article>
       <article class="archive-item">
          <a class="archive-item-link" href="https://huggingface.co/blog/torch-profiler" target="_blank" rel="noopener noreferrer">Profiling in PyTorch (Part 1): A Beginner's Guide to torch.profiler</a>
+      </article>
       <article class="archive-item">
          <a class="archive-item-link" href="https://huggingface.co/blog/torch-mlp-fusion" target="_blank" rel="noopener noreferrer">Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP</a>
       </article>
