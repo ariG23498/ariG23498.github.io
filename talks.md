@@ -6,6 +6,7 @@ permalink: /talks
 
 | Presentation Title | Event | Links |
 | :--: | :--: | :--: |
+| Introduction to Pallas: JAX’s extension for simple kernel building | JAX Community Summit | [Slides](https://docs.google.com/presentation/d/e/2PACX-1vQioy7xenECAGpNqxl2EBurYEb4W35HnPLX46LkAnIiz4Iu2UFNPRwdrQAJQaAKPpPDflh09KSRTg29/pub?start=false&loop=false&delayms=3000) |
 | Tokenization in Transformers v5 | PyCon Singapore 2026 | [Google Slides](https://docs.google.com/presentation/d/1kbfseQ9GHad8a89LpNJ7y__4jvSUSQK-4IJAEc-V4NU/edit?usp=sharing)|
 | Understanding RoPE | Hugging Face | [YouTube](https://youtu.be/jlGf2qieSk0)|
 | HF Podcast | Podcast | [YouTube](https://youtu.be/O3Ul6H20pLI) |
