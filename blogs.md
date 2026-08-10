@@ -8,6 +8,9 @@ permalink: /posts
    <div class="post-wrap archive">
       <h3>Hugging Face</h3>
       <article class="archive-item">
+         <a class="archive-item-link" href="https://huggingface.co/blog/muse-glimmer" target="_blank" rel="noopener noreferrer">Meta is back with Muse Glimmer: local, agentic, multimodal, and open source!</a>
+      </article>
+      <article class="archive-item">
          <a class="archive-item-link" href="https://huggingface.co/blog/thinkingmachines-inkling" target="_blank" rel="noopener noreferrer">Welcome Inkling by Thinking Machines</a>
       </article>
       <article class="archive-item">
