@@ -8,6 +8,9 @@ permalink: /posts
    <div class="post-wrap archive">
       <h3>Hugging Face</h3>
       <article class="archive-item">
+         <a class="archive-item-link" href="https://huggingface.co/spaces/ariG23498/flow-matching" target="_blank" rel="noopener noreferrer">From Noise to Images: Flow Matching Explained</a>
+      </article>
+      <article class="archive-item">
          <a class="archive-item-link" href="https://huggingface.co/blog/muse-glimmer" target="_blank" rel="noopener noreferrer">Meta is back with Muse Glimmer: local, agentic, multimodal, and open source!</a>
       </article>
       <article class="archive-item">
