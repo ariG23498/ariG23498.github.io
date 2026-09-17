@@ -8,6 +8,9 @@ permalink: /posts
    <div class="post-wrap archive">
       <h3>Hugging Face</h3>
       <article class="archive-item">
+         <a class="archive-item-link" href="https://huggingface.co/blog/ariG23498/funes-lance" target="_blank" rel="noopener noreferrer">funes with Lance</a>
+      </article>
+      <article class="archive-item">
          <a class="archive-item-link" href="https://huggingface.co/spaces/ariG23498/flow-matching" target="_blank" rel="noopener noreferrer">From Noise to Images: Flow Matching Explained</a>
       </article>
       <article class="archive-item">
