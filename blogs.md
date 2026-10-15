@@ -8,6 +8,9 @@ permalink: /posts
    <div class="post-wrap archive">
       <h3>Hugging Face</h3>
       <article class="archive-item">
+         <a class="archive-item-link" href="https://huggingface.co/blog/flux-3" target="_blank" rel="noopener noreferrer">Welcome FLUX.3 Image Klein in Diffusers: The latest open image generation model from Black Forest Labs</a>
+      </article>
+      <article class="archive-item">
          <a class="archive-item-link" href="https://huggingface.co/blog/ariG23498/funes-lance" target="_blank" rel="noopener noreferrer">funes with Lance</a>
       </article>
       <article class="archive-item">
